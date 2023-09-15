@@ -1,0 +1,14 @@
+#!name = Grow解锁
+#!desc = 点击恢复购买即可解锁订阅
+#!openUrl = 
+#!author = I-am-R-E
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Grow.png
+#!date = 2023-09-08 13:48:55
+
+[Script]
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Grow/Grow_crack.js, requires-body = true, tag = Grow解锁
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Grow/Grow_crack.js, requires-body = true, tag = Grow解锁
+
+[Mitm]
+hostname = api.revenuecat.com

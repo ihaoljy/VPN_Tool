@@ -1,0 +1,47 @@
+#!name = 芒果TV去广告
+#!desc = 过滤芒果TV客户端广告
+#!openUrl = 
+#!author = RuCu6
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Mango_TV.png
+#!date = 2023-09-15 17:07:37
+
+[Rule]
+DOMAIN, dflow.bz.mgtv.com, REJECT
+DOMAIN, encounter.bz.mgtv.com, REJECT
+DOMAIN, floor.bz.mgtv.com, REJECT
+DOMAIN, img.da.mgtv.com, REJECT
+DOMAIN, layer.bz.mgtv.com, REJECT
+DOMAIN, mob.bz.mgtv.com, REJECT
+DOMAIN, mobile.da.mgtv.com, REJECT
+DOMAIN, rc-topic-api.bz.mgtv.com, REJECT
+DOMAIN, v2.da.mgtv.com, REJECT
+DOMAIN, video.da.mgtv.com, REJECT
+DOMAIN, vip.bz.mgtv.com, REJECT
+DOMAIN, ys.da.mgtv.com, REJECT
+
+# 首页 - 左上角推广、信息流、底部菜单红点、顶部菜单、搜索框
+URL-REGEX, ^http:\/\/[0-9\.]+\/odin\/c1\/(channel\/ads|skin\/config)\?, REJECT-DICT
+URL-REGEX, ^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\?, REJECT-DICT
+
+[Rewrite]
+# 首页 - 左上角推广、信息流、底部菜单红点、顶部菜单、搜索框
+^https:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? reject-dict
+
+# 升级弹窗
+^https:\/\/mobile\.api\.mgtv\.com\/v2\/mobile\/checkUpdate\? reject-dict
+
+[Script]
+# 首页 - 左上角推广、信息流、底部菜单红点、顶部菜单、搜索框
+http-response ^http:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Mango_TV/iQiYi_Video_remove_ads.js, requires-body = true, tag = 移除首页推广
+http-response ^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Mango_TV/iQiYi_Video_remove_ads.js, requires-body = true, tag = 移除首页推广
+http-response ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Mango_TV/iQiYi_Video_remove_ads.js, requires-body = true, tag = 移除首页推广
+
+# 我的页面
+http-response ^https:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Mango_TV/iQiYi_Video_remove_ads.js, requires-body = true, tag = 移除我的页面推广
+
+# 播放详情页
+http-response ^https:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Mango_TV/iQiYi_Video_remove_ads.js, requires-body = true, tag = 移除播放详情页推广
+
+[MITM]
+hostname = *.mgtv.com

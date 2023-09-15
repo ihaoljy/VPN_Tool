@@ -1,0 +1,13 @@
+#!name = Drafts解锁
+#!desc = 启用插件即可解锁，如解锁无效可尝试点击恢复购买。
+#!openUrl = 
+#!author = chxm1023
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Drafts.png
+#!date = 2023-09-14 16:16:39
+
+[Script]
+http-response ^https?:\/\/backend\.getdrafts\.com\/api\/v\d\/verification\/(account_status|verify_receipt) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Drafts/Drafts_crack.js, requires-body = true, tag = Drafts解锁
+
+[Mitm]
+hostname = backend.getdrafts.com
