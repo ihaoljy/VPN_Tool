@@ -1,0 +1,73 @@
+#!name=微博Lite去广告
+#!desc=微博Lite去广告
+#!author=ddgksf2013
+
+url_rewrites:
+  - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users
+    location: http://reject/
+    status_code: 200
+  - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\?
+    location: http://reject/
+    status_code: 200
+  - match: https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php 
+    location: http://reject/
+    status_code: 200
+  - match:  ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest
+    location: http://reject/
+    status_code: 200
+  - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads
+    location: http://reject/
+    status_code: 200
+scriptings:
+  - http_response:
+      name: weibo_json.js
+      script_url: >-
+        https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/weibo_json.js
+      match: >-
+        ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline
+      body_required: true
+      timeout: 60
+  - http_response:
+      name: weibo_json.js
+      script_url: >-
+        https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/weibo_json.js
+      match: >-
+        ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline
+      body_required: true
+      timeout: 60
+  - http_response:
+      name: weibo_json.js
+      script_url: >-
+        https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/weibo_json.js
+      match: >-
+        ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist
+      body_required: true
+      timeout: 60
+  - http_response:
+      name: weibo_json.js
+      script_url: >-
+        https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/weibo_json.js
+      match: >-
+        ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends
+      body_required: true
+      timeout: 60
+  - http_request:
+      name: weibo_json.js
+      script_url: >-
+        https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/weibo_json.js
+      match: >-
+        ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic
+      body_required: false
+      timeout: 60
+mitm:
+  hostnames:
+    - '*.uve.weibo.com'
+    - '*api.weibo.cn'
+    - '*api.weibo.com'
+    - 'h5.sinaimg.cn'
+    - 'new.vip.weibo.cn'
+    - '*.sc.weibo.com'
+    - 'captcha.weibo.com'
+    - 'wx*.sinaimg.cn'
+    - 'js.t.sinajs.cn'
+    - '*.e.weibo.com'

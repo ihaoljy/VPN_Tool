@@ -1,0 +1,10 @@
+#!name=解锁StormSniffer
+#!desc=解锁StormSniffer
+#!author=PayNe
+
+[Script]
+StormSnifferHeader = type=http-request, pattern="^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$", script-path=https://raw.githubusercontent.com/ihaoljy/rule/8f7d7c041a81f6dae43e1a2a4f834c8fd824effc/Shadowrocket/js/StormSnifferHeader.js, timeout=60, script-update-interval=0
+StormSnifferCrack = type=http-response, pattern="^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/user-profile\/$", requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/ihaoljy/rule/8f7d7c041a81f6dae43e1a2a4f834c8fd824effc/Shadowrocket/js/StormSnifferCrack.js, timeout=60, script-update-interval=0
+
+[MITM]
+hostname = %APPEND% *.x-storm.com

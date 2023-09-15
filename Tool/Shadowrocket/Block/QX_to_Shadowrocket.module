@@ -1,0 +1,23 @@
+#!name=QX重写转化&规则集解析
+#!desc=现在默认缓存时间为1小时，可使用参数cachexp=修改缓存时间，单位：小时。使用方法在qx重写链接末尾加上qx 在surge模块链接末尾加sg 在loon插件链接末尾加上loon 在规则集链接末尾加r_parser.list 支持QX & Clash规则集解析
+#!author=@小白脸 @chengkongyiban
+#!使用手册https://github.com/chengkongyiban/stash/tree/main/Rewrite_Parser_Wiki
+#!问题反馈https://t.me/zhangpeifu
+
+[Script]
+
+QX转换 = type=http-request,pattern=^https?:\/\/.+\/[^/]+\.[^/]+(qx$|qx\?.+=),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/stash/main/js/QX_Rewrite_Parser.js, timeout=60
+
+Loon插件转换 = type=http-request, pattern=^https?:\/\/.+\/[^/]+\.[^/]+(loon$|loon\?.+=), requires-body=1, max-size=0, script-path=https://github.com/chengkongyiban/stash/raw/main/js/Loon_Rewrite_Parser.js ,timeout=60
+
+#对Surge/小火箭模块使用 可自动修正笔误的reject类型，并支持使用参数。
+模块控制器 = type=http-request,pattern=^https?:\/\/.+\/[^/]+\.[^/]+(sg$|sg\?.+=),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/stash/main/js/Surge_Rewrite_Parser.js, timeout=60
+
+规则集转换 = type=http-request,pattern=r_parser.list$|r_parser.list\?.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/stash/main/js/rule_parser.js, timeout=60
+
+脚本转换 = type=http-request,pattern=_script-converter-(stash|surge|loon|shadowrocket)\.js$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/script-converter/script-converter.js, timeout=60
+
+脚本转换2 = type=http-request,pattern=_script-converter-(STASH|SURGE|LOON|SHADOWROCKET)\.js$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/script-converter/script-converter.js, timeout=60, argument="wrap_response=true"
+
+[MITM]
+hostname = %APPEND% github.com:443, raw.githubusercontent.com:443,gist.githubusercontent.com,gitlab.com,yfamily.ml

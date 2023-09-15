@@ -1,0 +1,15 @@
+#!name=趣听去弹窗
+#!desc=趣听去弹窗
+#!author=ddgksf2013
+scriptings:
+  - http_response:
+      name: qtmusic.js
+      script_url: >-
+        https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/qtmusic.js
+      match: >-
+        ^https?:\/\/api\.bspapp\.com\/client
+      body_required: true
+      timeout: 60
+mitm:
+  hostnames:
+    - api.bspapp.com
