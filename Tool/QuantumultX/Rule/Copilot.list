@@ -1,12 +1,12 @@
 # Author: ihao
 # Date: 2023-12-30 17:25:05
 # desc 该服务有地区限制，请使用对应的节点，无需更改账号属性
-DOMAIN, api.msn.com
-DOMAIN, dealczars.bing-shopping.microsoft-falcon.io
-DOMAIN, gateway.bingviz.microsoftapp.net
-DOMAIN, location.microsoft.com
-DOMAIN, self.events.data.microsoft.com
-DOMAIN, shopping.bing-shopping.microsoft-falcon.io
-DOMAIN, sapphire.api.microsoftapp.net
-DOMAIN, sydney.bing.com
-DOMAIN, www.bing.com
+HOST, api.msn.com
+HOST, dealczars.bing-shopping.microsoft-falcon.io
+HOST, gateway.bingviz.microsoftapp.net
+HOST, location.microsoft.com
+HOST, self.events.data.microsoft.com
+HOST, shopping.bing-shopping.microsoft-falcon.io
+HOST, sapphire.api.microsoftapp.net
+HOST, sydney.bing.com
+HOST, www.bing.com
