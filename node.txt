@@ -1,0 +1,15 @@
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a9.zgc.su:567?security=tls&type=tcp#SG
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a25.zgc.su:567?security=tls&type=tcp#SG
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@xra10.zgc.su:567?security=tls&type=tcp#SG
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@dsg1.zgc.su:567?security=tls&type=tcp#SG
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a36.zgc.su:567?security=tls&type=tcp#SG
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a23.zgc.su:567?security=tls&type=tcp#KR
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a13.zgc.su:567?security=tls&type=tcp#KR
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a24.zgc.su:567?security=tls&type=tcp#KR
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a22.zgc.su:567?security=tls&type=tcp#JP
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a4.zgc.su:567?security=tls&type=tcp#JP
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a19.zgc.su:567?security=tls&type=tcp#JP
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a1.zgc.su:567?security=tls&type=tcp#JP
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a18.zgc.su:567?security=tls&type=tcp#JP
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@jpro.zgc.su:443?security=tls&type=ws&path=/ws#JP
+trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a29.zgc.su:443?security=tls&type=ws&path=/ws#JP
