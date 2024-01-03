@@ -19,3 +19,4 @@ trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a4.zgc.su:567?type=tcp&allowInsecu
 trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a19.zgc.su:567?type=tcp&allowInsecure=1#JP3%0D
 trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@jpro.zgc.su:443?type=ws&allowInsecure=1&path=/ws#JP4%0D
 trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a29.zgc.su:443?type=ws&allowInsecure=1&path=/ws#JP5%0D
+tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@tuic3.dtku47.xyz:12255?congestion_control=bbr&udp_relay_mode=native&alpn=h3#US
