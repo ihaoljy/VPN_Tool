@@ -8,6 +8,7 @@ vless://97e2f303-b8fa-4c70-8b3f-89f4924e6c0a@fl2.ltzykc.tk:8080?encryption=none&
 vless://97e2f303-b8fa-4c70-8b3f-89f4924e6c0a@sp.rweek.top:443?encryption=none&security=tls&sni=fl2.ltzykc.tk&type=ws&host=fl2.ltzykc.tk&path=%2F#%E6%B3%A2%E5%85%B0%E6%B2%99%E5%8D%8E%2Btls
 vless://97e2f303-b8fa-4c70-8b3f-89f4924e6c0a@fl.ltzykc.tk:2052?encryption=none&security=none&type=ws&host=fl.ltzykc.tk&path=%2F#%E6%B3%A2%E5%85%B0%E6%B2%99%E5%8D%8E-clone
 vless://97e2f303-b8fa-4c70-8b3f-89f4924e6c0a@sp.rweek.top:443?encryption=none&security=tls&sni=fl.ltzykc.tk&type=ws&host=fl.ltzykc.tk&path=%2F#%E6%B3%A2%E5%85%B0%E6%B2%99%E5%8D%8E-clone
+tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@tuic3.dtku47.xyz:12255?congestion_control=bbr&udp_relay_mode=native&alpn=h3#US
 trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a9.zgc.su:567?security=tls&type=tcp&headerType=none#SG1
 trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a25.zgc.su:567?security=tls&type=tcp&headerType=none#SG2
 trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@xra10.zgc.su:567?security=tls&type=tcp&headerType=none#SG3
