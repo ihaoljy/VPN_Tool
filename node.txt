@@ -1,20 +1,3 @@
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a9.zgc.su:567?security=tls&type=tcp#SG1
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a25.zgc.su:567?security=tls&type=tcp#SG2
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@xra10.zgc.su:567?security=tls&type=tcp#SG3
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@dsg1.zgc.su:567?security=tls&type=tcp#SG4
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a36.zgc.su:567?security=tls&type=tcp#SG5
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a23.zgc.su:567?security=tls&type=tcp#KR1
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a13.zgc.su:567?security=tls&type=tcp#KR2
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a24.zgc.su:567?security=tls&type=tcp#KR3
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a22.zgc.su:567?security=tls&type=tcp#JP1
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a4.zgc.su:567?security=tls&type=tcp#JP2
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a19.zgc.su:567?security=tls&type=tcp#JP3
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a1.zgc.su:567?security=tls&type=tcp#JP4
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a18.zgc.su:567?security=tls&type=tcp#JP5
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@jpro.zgc.su:443?security=tls&type=ws&path=/ws#JP6
-trojan://2d8a021a-0ba2-4a3c-bbd1-f63b743c2920@a29.zgc.su:443?security=tls&type=ws&path=/ws#JP7
-
-
 
 
 trojan=bangladeshipatri.com:443, password=242a3d8eee5e4ed1a6bfa4141d549a25, obfs=wss, obfs-host=bangladeshipatri.com, obfs-uri=/6b777a91, tls-verification=false, fast-open=false, udp-relay=false, tag=United Kingdom-1
