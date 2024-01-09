@@ -10,3 +10,24 @@
 DOMAIN-SUFFIX,ibm.com
 DOMAIN-SUFFIX,plex.tv
 DOMAIN,relay.firefox.com
+payload:
+  - DOMAIN-SUFFIX,v1.mk
+  - DOMAIN-SUFFIX,notion-api.splitbee.io
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,olevod.com
+  - DOMAIN-SUFFIX,olemovienews.com
+  - DOMAIN-SUFFIX,haiwaikan.com
+  - DOMAIN-SUFFIX,bfvvs.com
+  - DOMAIN-SUFFIX,cdn.venus7202.com
+  - DOMAIN-SUFFIX,cdn.ceres9350.com
+  - DOMAIN-SUFFIX,cdn.efhie.com
+  - DOMAIN-SUFFIX,czzy.site
+  - DOMAIN-SUFFIX,cz01.vip
+  - DOMAIN-SUFFIX,picsum.photos
+  - DOMAIN-SUFFIX,ibb.co
+  - DOMAIN-SUFFIX,kin6c1.com
+  - DOMAIN-SUFFIX,iz8qkg.com
+  - DOMAIN-SUFFIX,v82u1l.com
