@@ -2,32 +2,34 @@
 # AUTHOR: ArriettyQAQ
 # GITHUB: https://gitlab.com/lodepuly/vpn_tool/-/tree/main/tool/Loon
 # UPDATED: 2021-01-13 20:58:31
-# DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 1
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 19
 # USER-AGENT: 0
 # DOMAIN: 0
 # TOTAL: 0
 DOMAIN-SUFFIX,ibm.com
 DOMAIN-SUFFIX,plex.tv
-DOMAIN,relay.firefox.com
-payload:
-  - DOMAIN-SUFFIX,v1.mk
-  - DOMAIN-SUFFIX,notion-api.splitbee.io
-  - DOMAIN-SUFFIX,themoviedb.org
-  - DOMAIN-SUFFIX,thetvdb.com
-  - DOMAIN-SUFFIX,tmdb.org
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,olevod.com
-  - DOMAIN-SUFFIX,olemovienews.com
-  - DOMAIN-SUFFIX,haiwaikan.com
-  - DOMAIN-SUFFIX,bfvvs.com
-  - DOMAIN-SUFFIX,cdn.venus7202.com
-  - DOMAIN-SUFFIX,cdn.ceres9350.com
-  - DOMAIN-SUFFIX,cdn.efhie.com
-  - DOMAIN-SUFFIX,czzy.site
-  - DOMAIN-SUFFIX,cz01.vip
-  - DOMAIN-SUFFIX,picsum.photos
-  - DOMAIN-SUFFIX,ibb.co
-  - DOMAIN-SUFFIX,kin6c1.com
-  - DOMAIN-SUFFIX,iz8qkg.com
-  - DOMAIN-SUFFIX,v82u1l.com
+DOMAIN-SUFFIX,relay.firefox.com
+# payload:
+DOMAIN-SUFFIX,v1.mk
+DOMAIN-SUFFIX,notion-api.splitbee.io
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,picsum.photos
+DOMAIN-SUFFIX,ibb.co
+DOMAIN-SUFFIX,bfvvs.com
+DOMAIN-SUFFIX,cdn.venus7202.com
+DOMAIN-SUFFIX,cdn.ceres9350.com
+DOMAIN-SUFFIX,cdn.efhie.com
+
+# 海外看
+DOMAIN-SUFFIX,haiwaikan.com
+DOMAIN-SUFFIX,kin6c1.com
+DOMAIN-SUFFIX,iz8qkg.com
+DOMAIN-SUFFIX,v82u1l.com
+#欧乐影视
+DOMAIN-KEYWORD,olelive
+DOMAIN-KEYWORD,olevod
+DOMAIN-KEYWORD,olemovienews
