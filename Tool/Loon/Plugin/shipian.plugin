@@ -1,0 +1,11 @@
+#!name=shipian
+#!desc=shipian
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1061.png
+
+[MITM]
+hostname = api.revenuecat.com
+
+[Script]
+http-response ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/shipian.js, requires-body=true, timeout=60, tag=shipian
+
+http-request ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/shipian.js, timeout=60, tag=shipian
