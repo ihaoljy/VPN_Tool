@@ -3,7 +3,7 @@
 #!openUrl = http://s8u.cn/kDqfn
 #!author = Lee
 #!homepage = https://github.com/ihaoljy/VPN_Tool
-#!icon = https://raw.githubusercontent.com\VPN_Tool\icon\myicon\shipian.png
+#!icon = https://github.com/ihaoljy/VPN_Tool/blob/main/icon/myicon/shipian.png
 #!date = 2024-01-10 13:48:55
 [MITM]
 hostname = api.revenuecat.com
