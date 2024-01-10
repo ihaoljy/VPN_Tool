@@ -1,9 +1,9 @@
 #!name=诗片
 #!desc=先添加本插件，再打开诗片app
-#!openUrl = https://apps.apple.com/us/app/%E8%AF%97%E7%89%87-ai-%E7%BB%99%E7%85%A7%E7%89%87%E5%8C%B9%E9%85%8D%E8%AF%97%E5%8F%A5/id1672208469?l=zh-Hans-CN
+#!openUrl = http://s8u.cn/kDqfn
 #!author = Lee
-#!homepage = https://github.com/ihaoljy/
-#!icon = 📝
+#!homepage = https://github.com/ihaoljy/VPN_Tool
+#!icon = https://raw.githubusercontent.com\VPN_Tool\icon\myicon\shipian.png
 #!date = 2024-01-10 13:48:55
 [MITM]
 hostname = api.revenuecat.com
