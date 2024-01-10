@@ -1,0 +1,12 @@
+#!name=万源阅读会员解锁
+#!desc=先装插件再打开app，到里面恢复购买即可
+#!icon=https://mirror.ghproxy.com/https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/icon/myicon/wyyd.png
+#!openUrl = http://s8u.cn/KRF8a
+#!author = ihaoljy
+#!homepage = https://github.com/ihaoljy/VPN_Tool/blob/main/Tool/Loon/Plugin/
+#!date = 2024-01-10 22:21
+[MITM]
+hostname = buy.itunes.apple.com
+
+[Script]
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyyd.js, requires-body=true, timeout=60, tag=wyyd#!name = 
