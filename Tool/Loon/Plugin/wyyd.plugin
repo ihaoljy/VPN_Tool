@@ -9,4 +9,4 @@
 hostname = buy.itunes.apple.com
 
 [Script]
-http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyyd.js, requires-body=true, timeout=60, tag=wyyd#!name = 
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyyd.js, requires-body=true, timeout=60, tag=万源阅读会员解锁

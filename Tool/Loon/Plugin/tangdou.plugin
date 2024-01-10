@@ -10,6 +10,6 @@
 hostname = aa.tangdou.com, api-h5.tangdou.com
 
 [Script]
-http-response https:\/\/aa\.tangdou\.com:12308 script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/td.js, requires-body=true, timeout=60, tag=td
+http-response https:\/\/aa\.tangdou\.com:12308 script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/td.js, requires-body=true, timeout=60, tag=糖豆会员解锁
 
-http-response https:\/\/api-h5\.tangdou\.com script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/td.js, requires-body=true, timeout=60, tag=td
+http-response https:\/\/api-h5\.tangdou\.com script-path=https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/td.js, requires-body=true, timeout=60, tag=糖豆会员解锁

@@ -1,4 +1,4 @@
-#!name=诗片
+#!name=诗片会员永久解锁
 #!desc=先添加本插件，再打开诗片app
 #!openUrl = http://s8u.cn/kDqfn
 #!author = Lee
@@ -9,6 +9,6 @@
 hostname = api.revenuecat.com
 
 [Script]
-http-response ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/shipian.js, requires-body=true, timeout=60, tag=shipian
+http-response ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/shipian.js, requires-body=true, timeout=60, tag=诗片会员永久解锁
 
-http-request ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/shipian.js, timeout=60, tag=shipian
+http-request ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Revenuecat/shipian.js, timeout=60, tag=诗片会员永久解锁
