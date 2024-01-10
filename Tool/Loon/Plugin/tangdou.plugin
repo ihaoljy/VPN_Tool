@@ -1,6 +1,10 @@
 #!name=糖豆会员解锁
 #!desc=先安装插件再打开app
 #!icon= https://mirror.ghproxy.com/https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/icon/图像.png
+#!openUrl = https://apps.apple.com/us/app/%E7%B3%96%E8%B1%86-%E5%85%A8%E6%B0%91%E5%B9%BF%E5%9C%BA%E8%88%9E%E8%A7%86%E9%A2%91%E7%A4%BE%E5%8C%BA/id1278869344?l=zh-Hans-CN
+#!author = ihaoljy
+#!homepage = https://github.com/ihaoljy/VPN_Tool/blob/main/Tool/Loon/Plugin/
+#!date = 10.01.24
 
 [MITM]
 hostname = aa.tangdou.com, api-h5.tangdou.com
