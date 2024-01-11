@@ -35,3 +35,7 @@ DOMAIN-SUFFIX,m3u.haiwaikan.com
 DOMAIN-KEYWORD,olelive
 DOMAIN-KEYWORD,olevod
 DOMAIN-KEYWORD,olemovienews
+#twitch 老鼠台
+DOMAIN-KEYWORD,twitch
+DOMAIN-SUFFIX,twitch.tv
+
