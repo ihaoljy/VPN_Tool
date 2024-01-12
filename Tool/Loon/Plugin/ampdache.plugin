@@ -1,6 +1,6 @@
 #!name=高德打车签到
 #!desc=高德打车签到（app｜微信｜支付宝）三端随便一个登录获取cookies
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1073.png
+#!icon=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/gaode.png
 
 [MITM]
 hostname = *.amap.com
