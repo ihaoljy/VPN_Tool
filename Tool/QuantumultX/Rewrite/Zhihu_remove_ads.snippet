@@ -35,22 +35,22 @@
 
 
 # 首页 - 悬浮图标、顶部横幅、开屏广告、关注页推荐、推荐信息流、热榜信息流、热榜直播、回答底部卡片
-^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer$ url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer$ url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
 
-^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/recommend(_v2)?)\? url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
-^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/recommend(_v2)?)\? url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
 
 # 搜索页 - 关键词、猜你想搜
 ^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\? url response-body "recommend_queries":\{.+\} response-body "recommend_queries":{}
 
 # 回答详情页、下一个回答
-^https:\/\/api\.zhihu\.com\/next-(bff|data)\? url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
-^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(feeds|answers)\? url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
-^https:\/\/www\.zhihu\.com\/api\/v4\/(answers|articles)\/\d+\/recommendations?\? url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/api\.zhihu\.com\/next-(bff|data)\? url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(feeds|answers)\? url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/www\.zhihu\.com\/api\/v4\/(answers|articles)\/\d+\/recommendations?\? url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
 
 # 其他、服务器推送配置
-^https:\/\/appcloud2\.zhihu\.com\/v3\/config$ url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
-^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? url script-response-body https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/appcloud2\.zhihu\.com\/v3\/config$ url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
+^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/Zhihu/Zhihu_remove_ads.js
 
 #[mitm]
 hostname = api.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, www.zhihu.com, zhuanlan.zhihu.com
