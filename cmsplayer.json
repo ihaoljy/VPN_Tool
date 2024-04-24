@@ -31,7 +31,7 @@
 	{"name":"🟢|奇虎资源|微量","type":1,"api":"https://caiji.qhzyapi.com/api.php/provide/vod/"},
 	{"name":"🟢|每天资源|微量","type":1,"api":"http://47.113.126.237:1234/api.php/provide/vod/"},
 	{"name":"🟢|新浪资源|微量","type":1,"api":"https://api.xinlangapi.com/xinlangapi.php/provide/vod/"},
-	{"name":"🟢|快云资源|微量","type":1,"api":"https://www.kuaiyunzy.com/api.php/provide/vod/"}
+	{"name":"🟢|快云资源|微量","type":1,"api":"https://www.kuaiyunzy.com/api.php/provide/vod/"},
 	{"name":"🟢|红牛资源|微量","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/"}
 ]
 
