@@ -11,12 +11,12 @@
         "name": "欧乐影院",
         "api": "cms://ole",
     },
-	{
+    {
         "name": "海外看",
         "api": "https://haiwaikan.com/api.php/provide/vod/",
         "note": "需要代理"
     },
-	{
+    {
         "name": "极速资源22222",
         "api": "https://jszyapi.com/api.php/provide/vod/"
     },
