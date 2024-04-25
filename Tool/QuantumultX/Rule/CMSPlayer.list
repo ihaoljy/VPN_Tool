@@ -177,10 +177,11 @@ host-suffix, hey11.cjkypo.com, DIRECT
 #精品资源（直连）
 host-keyword, jpxcdn, DIRECT
 host-keyword, ckdns8, DIRECT
+
+#-------------首页系列-------------
+#探索页（直连）
+host-suffix, infuseku.xyz, DIRECT
 #豆瓣封面
 host-suffix, doubanio.com, DIRECT
 #同步数据
 host, gateway.icloud.com, DIRECT
-#-------------首页系列-------------
-#探索页（直连）
-host-suffix, infuseku.xyz, DIRECT
