@@ -9,7 +9,9 @@ host-suffix, czzy77.com, DIRECT
 host-suffix, czzy22.com, DIRECT
 host-suffix, czzy66.com, DIRECT
 host-suffix, cz233.com, DIRECT
-#哔嘀播放
+#哔嘀影视（直连）
+host-suffix, yjys.me, DIRECT
+host-suffix, bdys10.com, DIRECT
 host-suffix, ibytedtos.com, DIRECT
 host-suffix, toutiao50.com, DIRECT
 host-suffix, ibyteimg.com, DIRECT
@@ -159,8 +161,7 @@ host-suffix, leshizyapi.com, DIRECT
 host-suffix, xkanzy10.com, DIRECT
 #四圈资源（直连）
 host-suffix, fenwe078.cf, DIRECT
-#哔嘀影视（直连）
-host-suffix, bdys10.com, DIRECT
+
 
 
 #爱快
