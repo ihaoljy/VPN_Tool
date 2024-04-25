@@ -31,8 +31,20 @@ host, v3.suonizy-youku.com, DIRECT
 host, v8.sxzyhuij.com, DIRECT
 host, snzypic.com, DIRECT
 host, v8.suonizy-youku.com, DIRECT
+#360资源（直连）
+host-keyword, 360zy, DIRECT
+host-keyword, lyhuicheng, DIRECT
 #非凡资源（直连）
 host-suffix, ffzyapi.com, DIRECT
+host-keyword, ffzy-play.com, DIRECT
+host-keyword, ffzy-online, DIRECT
+host-suffix, image8899.net, DIRECT
+host-suffix, vip.ffzy-play9.com, DIRECT
+host-suffix, svip.picffzy.com, DIRECT
+host-suffix, vip.imgffzy.com, DIRECT
+host-suffix, vip.ffzyread1.com, DIRECT
+host-suffix, vip.ffzy-play3.com, DIRECT
+host-suffix, vip.ffzyread.com, DIRECT
 #红牛资源（直连）
 host-suffix, hongniuzy2.com, DIRECT
 host-suffix, ymuuy.com, DIRECT
@@ -40,6 +52,9 @@ host-suffix, bfvvs.com, DIRECT
 host-suffix, maimn.com, DIRECT
 #量子资源（直连）
 host-suffix, lziapi.com, DIRECT
+host-suffix, lzzyimg.com, DIRECT
+host-suffix, lzzypic.com, DIRECT
+host-keyword, cdnlz, DIRECT
 #快车资源（直连）
 host-suffix, kczyapi.com, DIRECT
 #三九影視（直连）
@@ -121,14 +136,14 @@ host, gateway.icloud.com, DIRECT
 host-keyword, ikunzyapi.com, direct
 #爱快
 host-keyword, ikzybf, direct
-host-keyword, v.cdnlz, DIRECT
+
 #快看
 host-keyword, vip.kuaikan, DIRECT
 host-keyword, vip.ffzy, DIRECT
 #暴风
 host-suffix, bfengbf.com, DIRECT
 host-suffix, bftuvip.com, DIRECT
-
+host-suffix, bfzyapi.com, DIRECT
 
 
 
@@ -139,17 +154,8 @@ host, c3.monidai.com, DIRECT
 host, pan.dy066.com, DIRECT
 host-suffix, hey11.cjkypo.com, DIRECT
 
-host, img.lzzyimg.com, DIRECT
-host, vip.ffzy-play5.com, DIRECT
-host, vip.ffzy-online6.com, DIRECT
-host, sss.image8899.net, DIRECT
 
-host, vip.ffzy-play9.com, DIRECT
-host, svip.picffzy.com, DIRECT
-host, vip.imgffzy.com, DIRECT
-host, vip.ffzyread1.com, DIRECT
-host, vip.ffzy-play3.com, DIRECT
-host, vip.ffzyread.com, DIRECT
+
 
 #四九资源
 host-keyword, 49zyvideoplayurl, DIRECT
