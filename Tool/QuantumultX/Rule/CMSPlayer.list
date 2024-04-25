@@ -1,4 +1,20 @@
 #-------------VOD系列-------------
+#在线之家（直连）
+host-suffix, zxzja.com, DIRECT
+host-suffix, zxzjhd.com, DIRECT
+host-suffix, zxzj.pro, DIRECT
+#厂长资源（直连）
+host-suffix, czzy88.com, DIRECT
+host-suffix, czzy22.com, DIRECT
+host-suffix, czzy66.com, DIRECT
+host-suffix, cz233.com, DIRECT
+#哔嘀播放
+host-suffix, ibytedtos.com, DIRECT
+host-suffix, toutiao50.com, DIRECT
+host-suffix, ibyteimg.com, DIRECT
+#低端影视（直连）
+host-suffix, ddys.pro, DIRECT
+host-suffix, ddys.mov, DIRECT
 #玩偶哥哥（直连）
 host-suffix, wogg.link, DIRECT
 host-suffix, wogg.xyz, DIRECT
@@ -11,112 +27,9 @@ host-suffix, jiohub.top, DIRECT
 host-suffix, pan666.net, DIRECT
 #云盘资源（直连）
 host-suffix, yunpan1.cc, DIRECT
-#厂长资源（直连）
-host-suffix, czzy88.com, DIRECT
-host-suffix, czzy22.com, DIRECT
-host-suffix, czzy66.com, DIRECT
-host-suffix, cz233.com, DIRECT
-#在线之家（直连）
-host-suffix, zxzja.com, DIRECT
-host-suffix, zxzjhd.com, DIRECT
-host-suffix, zxzj.pro, DIRECT
-#低端影视（直连）
-host-suffix, ddys.pro, DIRECT
-host-suffix, ddys.mov, DIRECT
 #AGE动漫（直连）
 host-suffix, agedm.org, DIRECT
-#-------------CMS系列-------------
-#360资源（直连）
-host-keyword, 360zy, DIRECT
-host-keyword, lyhuicheng, DIRECT
-#索尼资源（直连）
-host-suffix, suoniapi.com, DIRECT
-host, v3.sxzyhuij.com, DIRECT
-host, v3.suonizy-youku.com, DIRECT
-host, v8.sxzyhuij.com, DIRECT
-host, snzypic.com, DIRECT
-host, v8.suonizy-youku.com, DIRECT
-#豪华资源（直连）
-host-keyword, hhwenjian, DIRECT
-host-keyword, hhuus, DIRECT
-host-suffix, hhzyapi.com, DIRECT
-host-suffix, hhmage.com, DIRECT
 
-#非凡资源（直连）
-host-suffix, ffzyapi.com, DIRECT
-host-keyword, ffzy-play.com, DIRECT
-host-keyword, ffzy-online, DIRECT
-host-suffix, image8899.net, DIRECT
-host-suffix, vip.ffzy-play9.com, DIRECT
-host-suffix, svip.picffzy.com, DIRECT
-host-suffix, vip.imgffzy.com, DIRECT
-host-suffix, vip.ffzyread1.com, DIRECT
-host-suffix, vip.ffzy-play3.com, DIRECT
-host-suffix, vip.ffzyread.com, DIRECT
-#红牛资源（直连）
-host-suffix, hongniuzy2.com, DIRECT
-host-suffix, ymuuy.com, DIRECT
-host-suffix, bfvvs.com, DIRECT
-host-suffix, maimn.com, DIRECT
-#量子资源（直连）
-host-suffix, lziapi.com, DIRECT
-host-suffix, lzzyimg.com, DIRECT
-host-suffix, lzzypic.com, DIRECT
-host-keyword, cdnlz, DIRECT
-#快车资源（直连）
-host-suffix, kczyapi.com, DIRECT
-#三九影視（直连）
-host-suffix, 39kan.com, DIRECT
-host-suffix, ppsebs.com, DIRECT
-host-suffix, tlkqc.com, DIRECT
-host-suffix, tmdb.org, DIRECT
-#闪电资源（直连）
-host-suffix, sdzyapi.com, DIRECT
-#樱花资源（直连）
-host-suffix, apiyhzy.com, DIRECT
-#卧龙资源（直连）
-host-suffix, wolongzyw.com, DIRECT
-host-suffix, wlcdn99.com, DIRECT
-#飘花影院（直连）
-host-suffix, ahjiuman.com, DIRECT
-#虎牙资源（直连）
-host-suffix, huyaapi.com, DIRECT
-#百度资源（直连）
-host-suffix, apibdzy.com, DIRECT
-#飘零影院（直连）
-host-suffix, p2100.net, DIRECT
-#无尽资源（直连）
-host-suffix, wujinapi.com, DIRECT
-host-suffix, wujinpp.com, DIRECT
-host-suffix, tlkqc.com, DIRECT
-host-suffix, ppsebs.com, DIRECT
-#速博资源（直连）
-host-suffix, subocaiji.com, DIRECT
-#乐视资源（直连）
-host-suffix, leshizyapi.com, DIRECT
-#探索页（直连）
-host-suffix, infuseku.xyz, DIRECT
-#魔都动漫（直连）
-host-suffix, moduapi.cc, DIRECT
-#最大资源（直连）
-host-suffix, zuidazy.me, DIRECT
-#奇虎资源（直连）
-host-suffix, qhzyapi.com, DIRECT
-#火狐资源（直连）
-host-suffix, hhzyapi.com, DIRECT
-#享看资源（直连）
-host-suffix, xkanzy10.com, DIRECT
-#新浪资源（直连）
-host-suffix, xinlangapi.com, DIRECT
-#快云资源（直连）
-host-suffix, kuaiyunzy.com, DIRECT
-host-keyword, kuaiyun, DIRECT
-#四圈资源（直连）
-host-suffix, fenwe078.cf, DIRECT
-#哔嘀影视（直连）
-host-suffix, bdys10.com, DIRECT
-#快看资源（直连）
-host-suffix, kuaikanzy.net, DIRECT
 #厂长&低端播放
 host-suffix, cz01.site, DIRECT
 host-suffix, larksuitecdn.com, DIRECT
@@ -125,37 +38,130 @@ host-suffix, pstatp.com, DIRECT
 host-suffix, ugdtimg.com, DIRECT
 host-suffix, ctyunxs.cn, DIRECT
 host, wxsnsencsvp.wxs.qq.com, DIRECT
-#哔嘀播放
-host-suffix, ibytedtos.com, DIRECT
-host-suffix, toutiao50.com, DIRECT
-host-suffix, ibyteimg.com, DIRECT
+
 #阿里播放
 host-suffix, aliyundrive.asia, DIRECT
 host-suffix, alicloudccp.com, DIRECT
 host, openapi.aliyundrive.com, DIRECT
 host, auth.aliyundrive.com, DIRECT
 host, api.aliyundrive.com, DIRECT
-#豆瓣封面
-host-suffix, doubanio.com, DIRECT
-#同步数据
-host, gateway.icloud.com, DIRECT
-#杂七杂八的播放
-#爱坤
-host-keyword, ikunzyapi.com, direct
-#爱快
-host-keyword, ikzybf, direct
 
-#快看
-host-keyword, vip.kuaikan, DIRECT
-host-keyword, vip.ffzy, DIRECT
-#暴风
+
+#-------------CMS系列-------------
+#360资源（直连）
+host-keyword, 360zy, DIRECT
+host-keyword, lyhuicheng, DIRECT
+#非凡资源（直连）
+host-suffix, ffzyapi.com, DIRECT
+host-keyword, ffzy-play.com, DIRECT
+host-keyword, ffzy-online, DIRECT
+host-suffix, image8899.net, DIRECT
+host-suffix, svip.picffzy.com, DIRECT
+host-suffix, vip.imgffzy.com, DIRECT
+host-keyword, ffzyread, DIRECT
+#量子资源（直连）
+host-suffix, lziapi.com, DIRECT
+host-suffix, lzzyimg.com, DIRECT
+host-suffix, lzzypic.com, DIRECT
+host-keyword, cdnlz, DIRECT
+#暴风资源（直连）
 host-suffix, bfengbf.com, DIRECT
 host-suffix, bftuvip.com, DIRECT
 host-suffix, bfzyapi.com, DIRECT
+#豪华资源（直连）
+host-keyword, hhwenjian, DIRECT
+host-keyword, hhuus, DIRECT
+host-suffix, hhzyapi.com, DIRECT
+host-suffix, hhmage.com, DIRECT
+#索尼资源（直连）
+host-suffix, suoniapi.com, DIRECT
+host-keyword, sxzyhuij, DIRECT
+host-keyword, suonizy-youku, DIRECT
+host, snzypic.com, DIRECT
+#映迷资源（直连）
+
+#樱花资源（直连）
+host-suffix, apiyhzy.com, DIRECT
+#卧龙资源（直连）
+host-suffix, wolongzyw.com, DIRECT
+host-suffix, wlcdn99.com, DIRECT
+#红牛资源（直连）
+host-suffix, hongniuzy2.com, DIRECT
+host-suffix, ymuuy.com, DIRECT
+host-suffix, bfvvs.com, DIRECT
+host-suffix, maimn.com, DIRECT
+#飘花影院（直连）
+host-suffix, ahjiuman.com, DIRECT
+#飘零影院（直连）
+host-suffix, p2100.net, DIRECT
+#魔都动漫（直连）
+host-suffix, moduapi.cc, DIRECT
+#三九影視（直连）
+host-suffix, 39kan.com, DIRECT
+host-suffix, ppsebs.com, DIRECT
+host-suffix, tlkqc.com, DIRECT
+host-suffix, tmdb.org, DIRECT
+#四九资源（直连）
+host-keyword, 49zyvideoplayurl, DIRECT
+host-keyword, 49zyimgurl, DIRECT
+#ikun资源（直连）
+host-keyword, ikunzyapi, direct
+host-suffix, ikzybf.com, DIRECT
+host-suffix, imgikzy.com, DIRECT
+#无尽资源（直连）
+host-suffix, wujinapi.com, DIRECT
+host-suffix, wujinpp.com, DIRECT
+host-suffix, tlkqc.com, DIRECT
+host-suffix, ppsebs.com, DIRECT
+#飞速资源（直连）
+host-suffix, feisuzyapi.com, DIRECT
+host-suffix, fsvod1.com, DIRECT
+#快车资源（直连）
+host-suffix, pptvoss.com, DIRECT
+host-suffix, kczyapi.com, DIRECT
+host-suffix, kuaichezy.net, DIRECT
+#天翼资源（直连）
+
+#虎牙资源（直连）
+host-suffix, huyaapi.com, DIRECT
+#百度资源（直连）
+host-suffix, apibdzy.com, DIRECT
+#新浪资源（直连）
+host-suffix, xinlangapi.com, DIRECT
+#速博资源（直连）
+host-suffix, subocaiji.com, DIRECT
+#最大资源（直连）
+host-suffix, zuidazy.me, DIRECT
+#奇虎资源（直连）
+host-suffix, qhzyapi.com, DIRECT
+#每天资源（直连）
+
+#快云资源（直连）
+host-suffix, kuaiyunzy.com, DIRECT
+host-keyword, kuaiyun, DIRECT
+#快看资源（直连）
+host-keyword, kuaikan, DIRECT
+host-suffix, kuaikanzy.net, DIRECT
+host-keyword, vip.kuaikan, DIRECT
+host-keyword, vip.ffzy, DIRECT
+#闪电资源（直连）
+#host-suffix, sdzyapi.com, DIRECT
+
+#乐视资源（直连）
+host-suffix, leshizyapi.com, DIRECT
 
 
+#享看资源（直连）
+host-suffix, xkanzy10.com, DIRECT
+#四圈资源（直连）
+host-suffix, fenwe078.cf, DIRECT
+#哔嘀影视（直连）
+host-suffix, bdys10.com, DIRECT
 
 
+#爱快
+host-keyword, ikzybf, direct
+#杂七杂八的播放
 host, vod2.kczybf.com, DIRECT
 host, top.1080pzy.co, DIRECT
 host, c3.monidai.com, DIRECT
@@ -164,24 +170,14 @@ host-suffix, hey11.cjkypo.com, DIRECT
 
 
 
-
-#四九资源
-host-keyword, 49zyvideoplayurl, DIRECT
-host-keyword, 49zyimgurl, DIRECT
-#ikun资源
-host-suffix, ikzybf.com, DIRECT
-host-suffix, imgikzy.com, DIRECT
-#快车
-host-suffix, pptvoss.com, DIRECT
-host-suffix, kczyapi.com, DIRECT
-host-suffix, kuaichezy.net, DIRECT
-#飞速
-host-suffix, feisuzyapi.com, DIRECT
-host-suffix, fsvod1.com, DIRECT
-
 #-------------yellow系列-------------
 #精品资源（直连）
 host-keyword, jpxcdn, DIRECT
 host-keyword, ckdns8, DIRECT
-
-
+#豆瓣封面
+host-suffix, doubanio.com, DIRECT
+#同步数据
+host, gateway.icloud.com, DIRECT
+#-------------首页系列-------------
+#探索页（直连）
+host-suffix, infuseku.xyz, DIRECT
