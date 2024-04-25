@@ -29,10 +29,10 @@ host-suffix, agedm.org, DIRECT
 #360资源（直连）
 host-keyword, 360zy, DIRECT
 host-keyword, lyhuicheng, DIRECT
-#360资源（直连）
-host-keyword, jpxcdn, DIRECT
-host-keyword, ckdns8, DIRECT
-host-keyword, jingpinx, DIRECT
+#精品资源（直连）
+#host-keyword, jpxcdn, DIRECT
+#host-keyword, ckdns8, DIRECT
+#host-keyword, jingpinx, DIRECT
 #索尼资源（直连）
 host-suffix, suoniapi.com, DIRECT
 host, v3.sxzyhuij.com, DIRECT
