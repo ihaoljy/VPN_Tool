@@ -146,6 +146,9 @@ host-keyword, vip.kuaikan, DIRECT
 host-keyword, vip.ffzy, DIRECT
 #闪电资源（直连）
 #host-suffix, sdzyapi.com, DIRECT
+host-suffix, zijieoss.com:, DIRECT
+host-suffix, fentvoss.com, DIRECT
+host-suffix, shandianpic.com, DIRECT
 
 #乐视资源（直连）
 host-suffix, leshizyapi.com, DIRECT
