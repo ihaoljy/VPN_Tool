@@ -1,0 +1,38 @@
+# 2024-04-26 21:21:12
+# ChatGPT
+HOST-SUFFIX, chatgpt.com
+HOST-SUFFIX, oaistatic.com
+HOST-SUFFIX, oaiusercontent.com
+HOST-SUFFIX, openai.com
+HOST, api.statsig.com
+HOST, api-iam.intercom.io
+HOST, chatgpt.livekit.cloud
+HOST, o33249.ingest.sentry.io
+HOST, openaiapi-site.azureedge.net
+HOST, sfo3.turn.livekit.cloud
+HOST-KEYWORD, openaicom
+
+# Copilot
+HOST, api.githubcopilot.com
+HOST, copilot-proxy.githubusercontent.com
+HOST, copilot.microsoft.com
+HOST, sydney.bing.com
+HOST, www.bing.com
+
+# Gemini
+HOST, bard.google.com
+HOST, gemini.google.com
+
+# Claude
+HOST-SUFFIX, anthropic.com
+HOST-SUFFIX, claude.ai
+IP-CIDR, 160.79.104.0/23, no-resolve
+IP-CIDR6, 2607:6bc0::/48, no-resolve
+
+# JetBrains AI
+HOST-SUFFIX, grazie.ai
+
+# Meta
+HOST, imagine.meta.com
+HOST-SUFFIX, meta.ai
+SquareX Safe File Viewer
