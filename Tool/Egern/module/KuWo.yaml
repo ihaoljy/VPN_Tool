@@ -1,0 +1,20 @@
+#!name=酷我音乐&酷我畅听解锁
+#!desc=🔗 Loon插件引入和圈叉重写引入以下链接(圈叉需开启资源解析器)‼️请在软件中引用该链，若多次尝试直接访问该链接，将有可能被系统风控拉黑！切记！！！‼️❗️已解锁功能：酷我畅听全功能解锁并去除广告。酷我音乐解锁会员歌曲，装扮中心部分功能，去除各种广告。❗️未解锁功能：未解锁歌曲下载未解锁酷我音乐客户端内的听书❗️已知问题：会员歌典解锁320k音质，在播放一首会员歌曲后会导致默认播放音质最高为超品
+#!author=影子
+#!icon=https://file.napi.ltd/Static/Image/KuWo.png
+#!openUrl=https://napi.ltd
+#!homepage=https://napi.ltd
+#!date=2024-04-28
+scriptings:
+  - http_response:
+      name: KuWo.js
+      script_url: >-
+        https://napi.ltd/script/Worker/KuWo.js
+      match: >-
+        ^(?!.*img).*?(kuwo\.cn|lrts\.me)(/vip|/openapi)?(/enc|/audi.tion|/v[\d]/(user/vip\?(vers|apiVersion|platform|op\=ui|_t)|theme\?op=gd|sysinfo\?op=getRePayAndDoPayBoxNew|api(/pay)?/((user/personal/)?user/info|payInfo/kwplayer/payMiniBar|advert/(myPage|iListen|album))|album/myRec/vipMusic)|/kuwopay/vip-tab/setting|/(audioApi/)?a\.p($|.*?ptype\=vip)|/(EcomResource|(Mobile)?Ad)Serv(er|ice))
+      body_required: true
+      timeout: 60
+mitm:
+  hostnames:
+    - '%APPEND% *.kuwo.cn'
+    - 'audiobookpay.lrts.me'
