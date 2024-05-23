@@ -2,7 +2,6 @@
 #LIBVIO（直连）
 host-suffix,libvio.cc,DIRECT
 #独播库（直连）
-host-suffix, duboku.tv, 香港策略
 host-keyword,boku,DIRECT
 #在线之家（直连）
 host-suffix, zxzja.com, DIRECT
