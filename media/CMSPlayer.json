@@ -1,0 +1,106 @@
+[
+    {
+        "api": "http://gwcms.cttv.vip/api.php/provide/vod/",
+        "name": "🌐|官网资源|无广告"
+    },
+    {
+        "api": "https://haiwaikan.com/api.php/provide/vod/",
+        "name": "✈️️|海外看|去广告"
+    },
+    {
+        "name": "🫐|黑木耳|无广告",
+        "api": "https://www.heimuer.tv/api.php/provide/vod/"
+    },
+    {
+        "api": "https://360zy.com/api.php/provide/vod/",
+        "name": "🟢|360资源|无广告"
+    },
+    {
+        "api": "https://www.kuaikan-api.com/api.php/provide/vod/",
+        "name": "🟢|快看资源|去广告"
+    },
+    {
+        "name": "🟢|暴风影视|去广告",
+        "api": "https://bfzyapi.com/api.php/provide/vod/"
+    },
+    {
+        "api": "https://cj.lziapi.com/api.php/provide/vod/",
+        "name": "🟢|量子资源|去广告"
+    },
+    {
+        "name": "🟢|非凡资源|去广告",
+        "api": "http://cj.ffzyapi.com/api.php/provide/vod/"
+    },
+    {
+        "name": "🟢|火狐资源|微广告",
+        "api": "https://hhzyapi.com/api.php/provide/vod/"
+    },
+    {
+        "name": "🏝️|低端影视|无广告",
+        "api": "cms://ddys"
+    },
+    {
+        "name": "🧵|在线之家|无广告",
+        "api": "cms://zxzj"
+    },
+    {
+        "api": "cms://ole",
+        "name": "😯|欧乐影院|无广告"
+    },
+    {
+        "api": "https://api.wujinapi.com/api.php/provide/vod/",
+        "name": "🔴|无尽资源|微广告"
+    },
+    {
+        "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+        "name": "🔴|红牛资源|微广告"
+    },
+    {
+        "api": "https://sdzyapi.com/api.php/provide/vod/",
+        "name": "🔴|闪电资源|微广告"
+    },
+    {
+        "api": "https://api.apibdzy.com/api.php/provide/vod/",
+        "name": "🔴|百度资源|微广告"
+    },
+    {
+        "api": "https://jszyapi.com/api.php/provide/vod/",
+        "name": "🔴|极速资源|微广告"
+    },
+    {
+        "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+        "name": "🔴|天空资源|微广告"
+    },
+    {
+        "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
+        "name": "🔴|飞速资源|微广告"
+    },
+    {
+        "api": "https://ikunzyapi.com/api.php/provide/vod/",
+        "name": "🔴|ikun资源|微广告"
+    },
+    {
+        "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
+        "name": "🔴|卧龙资源|微广告"
+    },
+    {
+        "api": "https://pg.fenwe078.cf/api.php/provide/vod/",
+        "name": "🔴|四圈资源|微广告"
+    },
+    {
+        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
+        "name": "🔴|樱花资源|微广告"
+    },
+    {
+        "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+        "name": "🔴|快播资源|微广告"
+    },
+    {
+        "name": "🔴|U酷资源|微广告",
+        "api": "https://api.ukuapi.com/api.php/provide/vod/"
+    },
+    {
+        "api": "https://ckzy.me/api.php/provide/vod/",
+        "name": "🔴|ck资源|微广告"
+    }
+]
