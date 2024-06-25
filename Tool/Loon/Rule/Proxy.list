@@ -25,12 +25,13 @@ DOMAIN-SUFFIX,cdn.ceres9350.com
 DOMAIN-SUFFIX,cdn.efhie.com
 
 # 海外看
-DOMAIN- KEYWORD,haiwaikan
+DOMAIN-KEYWORD,haiwaikan
 DOMAIN-SUFFIX,kin6c1.com
 DOMAIN-SUFFIX,iz8qkg.com
 DOMAIN-SUFFIX,v82u1l.com
 DOMAIN-SUFFIX,cdn.v82u1l.com
-DOMAIN-SUFFIX,m3u.haiwaikan.com
+#DOMAIN-SUFFIX,m3u.haiwaikan.com
+DOMAIN-SUFFIX,tang.hz.cz
 #欧乐影视
 DOMAIN-KEYWORD,olelive
 DOMAIN-KEYWORD,olevod
