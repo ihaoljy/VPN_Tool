@@ -1,0 +1,199 @@
+#-------------VOD系列-------------
+#LIBVIO（直连）
+domain-suffix,libvio.cc
+#独播库（直连）
+#domain-keyword,dubo
+#domain-keyword,boku
+#在线之家（直连）
+domain-suffix, zxzja.com
+domain-suffix, zxzjhd.com
+domain-suffix, zxzj.pro
+#厂长资源（直连）
+domain-suffix, czzy88.com
+domain-keyword, czzy77
+domain-suffix, czzy22.com
+domain-suffix, czzy66.com
+domain-suffix, cz233.com
+domain-suffix, czys.top
+#哔嘀影视（直连）
+domain-suffix, yjys.me
+domain-suffix, bdys10.com
+domain-suffix, ibytedtos.com
+domain-suffix, toutiao50.com
+domain-suffix, ibyteimg.com
+#低端影视（直连）
+domain-suffix, ddys.pro
+domain-suffix, ddys.mov
+#玩偶哥哥（直连）
+domain-suffix, wogg.link
+domain-suffix, wogg.xyz
+domain-suffix, xxooo.cf
+#玩偶表哥（直连）
+domain-suffix, wobge.run.goorm.io
+#小纸条（直连）
+domain-suffix, gitcafe.net
+#jojo（直连）
+domain-suffix, jiohub.top
+#阿里小站（直连）
+domain-suffix, pan666.net
+#云盘资源（直连）
+domain-suffix, yunpan1.cc
+#AGE动漫（直连）
+domain-suffix, agedm.org
+
+#厂长&低端播放
+domain-suffix, cz01.site
+domain-suffix, larksuitecdn.com
+domain-suffix, fotile.com
+domain-suffix, pstatp.com
+domain-suffix, ugdtimg.com
+domain-suffix, ctyunxs.cn
+domain, wxsnsencsvp.wxs.qq.com
+
+#阿里播放
+domain-suffix, aliyundrive.asia
+domain-suffix, alicloudccp.com
+domain, openapi.aliyundrive.com
+domain, auth.aliyundrive.com
+domain, api.aliyundrive.com
+
+
+#-------------CMS系列-------------
+#黑木耳资源（直连）
+domain-keyword, heimuer
+#360资源（直连）
+domain-keyword, 360zy
+domain-keyword, lyhuicheng
+#非凡资源（直连）
+domain-suffix, ffzyapi.com
+domain-keyword, ffzy-play.com
+domain-keyword, ffzy-online
+domain-suffix, image8899.net
+domain-suffix, svip.picffzy.com
+domain-suffix, vip.imgffzy.com
+domain-keyword, ffzyread
+#量子资源（直连）
+domain-suffix, lziapi.com
+domain-suffix, lzzyimg.com
+domain-suffix, lzzypic.com
+domain-keyword, cdnlz
+#暴风资源（直连）
+domain-suffix, bfengbf.com
+domain-suffix, bftuvip.com
+domain-suffix, bfzyapi.com
+#豪华资源（直连）
+domain-keyword, hhwenjian
+domain-keyword, hhuus
+domain-suffix, hhzyapi.com
+domain-suffix, hhmage.com
+#索尼资源（直连）
+domain-suffix, suoniapi.com
+domain-keyword, sxzyhuij
+domain-keyword, suonizy-youku
+domain, snzypic.com
+#映迷资源（直连）
+
+#樱花资源（直连）
+domain-suffix, apiyhzy.com
+#卧龙资源（直连）
+domain-suffix, wolongzyw.com
+domain-suffix, wlcdn99.com
+#红牛资源（直连）
+domain-suffix, hongniuzy2.com
+domain-suffix, ymuuy.com
+domain-suffix, bfvvs.com
+domain-suffix, maimn.com
+#飘花影院（直连）
+domain-suffix, ahjiuman.com
+#飘零影院（直连）
+domain-suffix, p2100.net
+#魔都动漫（直连）
+domain-suffix, moduapi.cc
+#三九影視（直连）
+domain-suffix, 39kan.com
+domain-suffix, ppsebs.com
+domain-suffix, tlkqc.com
+domain-suffix, tmdb.org
+#四九资源（直连）
+domain-keyword, 49zyvideoplayurl
+domain-keyword, 49zyimgurl
+#ikun资源（直连）
+domain-keyword, ikunzyapi
+domain-suffix, ikzybf.com
+domain-suffix, imgikzy.com
+#无尽资源（直连）
+domain-suffix, wujinapi.com
+domain-suffix, wujinpp.com
+domain-suffix, tlkqc.com
+domain-suffix, ppsebs.com
+#飞速资源（直连）
+domain-suffix, feisuzyapi.com
+domain-suffix, fsvod1.com
+#快车资源（直连）
+domain-suffix, pptvoss.com
+domain-suffix, kczyapi.com
+domain-suffix, kuaichezy.net
+#天翼资源（直连）
+
+#虎牙资源（直连）
+domain-suffix, huyaapi.com
+#百度资源（直连）
+domain-suffix, apibdzy.com
+#新浪资源（直连）
+domain-suffix, xinlangapi.com
+#速博资源（直连）
+domain-suffix, subocaiji.com
+#最大资源（直连）
+domain-suffix, zuidazy.me
+#奇虎资源（直连）
+domain-suffix, qhzyapi.com
+#每天资源（直连）
+
+#快云资源（直连）
+domain-suffix, kuaiyunzy.com
+domain-keyword, kuaiyun
+#快看资源（直连）
+domain-keyword, kuaikan
+domain-suffix, kuaikanzy.net
+domain-keyword, vip.kuaikan
+domain-keyword, vip.ffzy
+#闪电资源（直连）
+#domain-suffix, sdzyapi.com
+domain-suffix, zijieoss.com:
+domain-suffix, fentvoss.com
+domain-suffix, shandianpic.com
+
+#乐视资源（直连）
+domain-suffix, leshizyapi.com
+
+
+#享看资源（直连）
+domain-suffix, xkanzy10.com
+#四圈资源（直连）
+domain-suffix, fenwe078.cf
+
+
+
+#爱快
+domain-keyword, ikzybf
+#杂七杂八的播放
+domain, vod2.kczybf.com
+domain, top.1080pzy.co
+domain, c3.monidai.com
+domain, pan.dy066.com
+domain-suffix, hey11.cjkypo.com
+
+
+
+#-------------yellow系列-------------
+#精品资源（直连）
+domain-keyword, jpxcdn
+domain-keyword, ckdns8
+
+#-------------首页系列-------------
+#探索页（直连）
+domain-suffix, infuseku.xyz
+#豆瓣封面
+domain-suffix, doubanio.com
+#同步数据
+domain, gateway.icloud.com
