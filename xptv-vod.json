@@ -76,6 +76,26 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1
-        }
+        },
+        {
+             "key":"csp_libvio",
+             "name":"🌰LIBVIO",
+             "type":3,
+             "api":"csp_libvio",
+             "searchable":1,
+             "quickSearch":1,
+             "filterable":1,
+             "changeable": 1
+         },
+        {
+             "key":"csp_duboku",
+             "name":"☠️独播库",
+             "type":3,
+             "api":"csp_duboku",
+             "searchable":1,
+             "quickSearch":1,
+              "filterable":1,
+             "changeable": 1
+         }
     ]
 }
