@@ -1,15 +1,78 @@
-vless://YXV0bzphNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGRAW1syNjAwOjE5MDA6NDA1MDo2M2U6OmU5XV06ODg4MQ==?remarks=JP xtls-reality&obfs=none&tls=1&peer=addons.mozilla.org&mux=1&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc
+vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8881?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc&type=tcp&headerType=none#JP%20xtls-reality
+----------------------------
+hysteria2://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8882/?alpn=h3&insecure=1#JP%20hysteria2
+----------------------------
+tuic://a6d6d624-7c08-46a9-9ad7-a98d6731668d:a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8883?alpn=h3&congestion_control=bbr#JP%20tuic
 
-hysteria2://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8882?insecure=1&obfs=none&mport=8882,50000-51000#JP%20hysteria2
+# 请把 tls 里的 inSecure 设置为 true
+----------------------------
+# ShadowTLS 配置文件内容，需要更新 sing_box 内核
 
-tuic://a6d6d624-7c08-46a9-9ad7-a98d6731668d:a6d6d624-7c08-46a9-9ad7-a98d6731668d@[[2600:1900:4050:63e::e9]]:8883?congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1#JP%20tuic
+{
+  "log":{
+      "level":"warn"
+  },
+  "inbounds":[
+      {
+          "domain_strategy":"",
+          "listen":"127.0.0.1",
+          "listen_port":8884,
+          "sniff":true,
+          "sniff_override_destination":false,
+          "tag": "ShadowTLS",
+          "type":"mixed"
+      }
+  ],
+  "outbounds":[
+      {
+          "detour":"shadowtls-out",
+          "domain_strategy":"",
+          "method":"2022-blake3-aes-128-gcm",
+          "password":"riJmLUuznm9zqqbKwUclIg==",
+          "type":"shadowsocks",
+          "udp_over_tcp": false,
+          "multiplex": {
+            "enabled": true,
+            "protocol": "h2mux",
+            "max_connections": 8,
+            "min_streams": 16,
+            "padding": true
+          }
+      },
+      {
+          "domain_strategy":"",
+          "password":"a6d6d624-7c08-46a9-9ad7-a98d6731668d",
+          "server":"2600:1900:4050:63e::e9",
+          "server_port":8884,
+          "tag": "shadowtls-out",
+          "tls":{
+              "enabled":true,
+              "server_name":"addons.mozilla.org",
+              "utls": {
+                "enabled": true,
+                "fingerprint": "chrome"
+              }
+          },
+          "type":"shadowtls",
+          "version":3
+      }
+  ]
+}
+----------------------------
+ss://YWVzLTEyOC1nY206YTZkNmQ2MjQtN2MwOC00NmE5LTlhZDctYTk4ZDY3MzE2NjhkQFsyNjAwOjE5MDA6NDA1MDo2M2U6OmU5XTo4ODg1#JP%20shadowsocks
+----------------------------
+trojan://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8886?security=tls&type=tcp&headerType=none#JP%20trojan
 
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cmlKbUxVdXpubTl6cXFiS3dVY2xJZz09QFtbMjYwMDoxOTAwOjQwNTA6NjNlOjplOV1dOjg4ODQ=?shadow-tls=eyJ2ZXJzaW9uIjoiMyIsImhvc3QiOiJhZGRvbnMubW96aWxsYS5vcmciLCJwYXNzd29yZCI6ImE2ZDZkNjI0LTdjMDgtNDZhOS05YWQ3LWE5OGQ2NzMxNjY4ZCJ9#JP%20ShadowTLS
+# 请把 tls 里的 inSecure 设置为 true
+----------------------------
+#vmess://eyAidiI6ICIyIiwgInBzIjogIkpQIHZtZXNzLXdzIiwgImFkZCI6ICJhY2pwMi5jbG91ZGZsYXJlc3QubGluayIsICJwb3J0IjogIjgwIiwgImlkIjogImE2ZDZkNjI0LTdjMDgtNDZhOS05YWQ3LWE5OGQ2NzMxNjY4ZCIsICJhaWQiOiAiMCIsICJzY3kiOiAibm9uZSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAidm1lc3MuaWJveC51cy5rZyIsICJwYXRoIjogIi9hNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGQtdm1lc3MiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiB9
 
-ss://YWVzLTEyOC1nY206YTZkNmQ2MjQtN2MwOC00NmE5LTlhZDctYTk4ZDY3MzE2NjhkQFtbMjYwMDoxOTAwOjQwNTA6NjNlOjplOV1dOjg4ODU=#JP%20shadowsocks
+# 请在 Cloudflare 绑定 [2600:1900:4050:63e::e9] 的域名为 [vmess.ibox.us.kg], 并设置 origin rule 为 [8887]
+----------------------------
+#vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@acjp2.cloudflarest.link:443?encryption=none&security=tls&sni=vless.ibox.us.kg&type=ws&host=vless.ibox.us.kg&path=%2Fa6d6d624-7c08-46a9-9ad7-a98d6731668d-vless%3Fed%3D2048#JP%20vless-ws-tls
 
-trojan://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8886?allowInsecure=1#JP%20trojan
-
-vless://YXV0bzphNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGRAW1syNjAwOjE5MDA6NDA1MDo2M2U6OmU5XV06ODg4OQ==?remarks=JP%20h2-reality&path=/&obfs=h2&tls=1&peer=addons.mozilla.org&alpn=h2&mux=1&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc
-
-vless://YXV0bzphNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGRAW1syNjAwOjE5MDA6NDA1MDo2M2U6OmU5XV06ODg5MA==?remarks=JP%20grpc-reality&path=grpc&obfs=grpc&tls=1&peer=addons.mozilla.org&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc
+# 请在 Cloudflare 绑定 [2600:1900:4050:63e::e9] 的域名为 [vless.ibox.us.kg], 并设置 origin rule 为 [8888]
+----------------------------
+vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8889?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc&type=http#JP%20h2-reality
+----------------------------
+vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc&type=grpc&serviceName=grpc&mode=gun#JP%20grpc-reality
