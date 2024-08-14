@@ -1,0 +1,15 @@
+vless://YXV0bzphNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGRAW1syNjAwOjE5MDA6NDA1MDo2M2U6OmU5XV06ODg4MQ==?remarks=JP xtls-reality&obfs=none&tls=1&peer=addons.mozilla.org&mux=1&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc
+
+hysteria2://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8882?insecure=1&obfs=none&mport=8882,50000-51000#JP%20hysteria2
+
+tuic://a6d6d624-7c08-46a9-9ad7-a98d6731668d:a6d6d624-7c08-46a9-9ad7-a98d6731668d@[[2600:1900:4050:63e::e9]]:8883?congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1#JP%20tuic
+
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206cmlKbUxVdXpubTl6cXFiS3dVY2xJZz09QFtbMjYwMDoxOTAwOjQwNTA6NjNlOjplOV1dOjg4ODQ=?shadow-tls=eyJ2ZXJzaW9uIjoiMyIsImhvc3QiOiJhZGRvbnMubW96aWxsYS5vcmciLCJwYXNzd29yZCI6ImE2ZDZkNjI0LTdjMDgtNDZhOS05YWQ3LWE5OGQ2NzMxNjY4ZCJ9#JP%20ShadowTLS
+
+ss://YWVzLTEyOC1nY206YTZkNmQ2MjQtN2MwOC00NmE5LTlhZDctYTk4ZDY3MzE2NjhkQFtbMjYwMDoxOTAwOjQwNTA6NjNlOjplOV1dOjg4ODU=#JP%20shadowsocks
+
+trojan://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8886?allowInsecure=1#JP%20trojan
+
+vless://YXV0bzphNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGRAW1syNjAwOjE5MDA6NDA1MDo2M2U6OmU5XV06ODg4OQ==?remarks=JP%20h2-reality&path=/&obfs=h2&tls=1&peer=addons.mozilla.org&alpn=h2&mux=1&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc
+
+vless://YXV0bzphNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGRAW1syNjAwOjE5MDA6NDA1MDo2M2U6OmU5XV06ODg5MA==?remarks=JP%20grpc-reality&path=grpc&obfs=grpc&tls=1&peer=addons.mozilla.org&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc
