@@ -48,4 +48,4 @@ hostname =  %APPEND% *.kugou.com
 
 cron {cron} script-path=https://git.886.be/https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugou/kugou_auto.js, tag=酷狗领取VIP
 
-http-request https://(gateway|gatewayretry|gateway3).kugou.com/youth/v1/(recharge/receive_vip_listen_song|activity/get_month_vip_record).* script-path=https://git.886.be/https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugou/kugou.js, tag=酷狗数据获取
+http-request https://(gateway|gatewayretry|gateway3).kugou.com/youth/v1/(recharge/receive_vip_listen_song|activity/get_month_vip_record).* script-path=https://git.886.be/https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugou/kugou.js, tag=酷狗数据获取,enable=｛cookieScriptEnable｝
