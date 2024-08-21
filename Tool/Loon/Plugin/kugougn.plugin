@@ -2,8 +2,8 @@
 #!desc= 每日凌晨0点1分自动领取VIP，第一使用打开酷狗概念版天天签到领VIP页面获取参数，提示获取成功即可，去除启动广告
 #!category= 酷狗概念版
 #!author = Alex0510[https://github.com/Alex0510/Eric]
-#!homePage = https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Module/kugou.sgmodule
-#!data = 2024-08-21 22:52:06
+#!homePage = https://886.be/UYH
+#!date = 2024-08-21 22:52:06
 #!icon = https://raw.githubusercontent.com/Loon0x00/Loon0x00.github.io/main/static/img/loon.png
 #!system = ios,tvos,macos
 #!system_version = 15.0
