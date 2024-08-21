@@ -5,14 +5,14 @@
 #!homePage = https://886.be/UYH
 #!date = 2024-08-21 22:52:06
 #!icon = https://raw.githubusercontent.com/Loon0x00/Loon0x00.github.io/main/static/img/loon.png
-#!system = ios,tvos,macos
+#!system = ios
 #!system_version = 15.0
 #!loon_version = 3.2.1(734)
 #!tag = 解会员,kugou
 
 [Argument]
-appName = input,"kugou",tag=应用名称,desc=填写app的用户名，用于提交app的相关信息
-appCategory = select,"Tool","Video&Photo","Game",tag=应用类型
+appName = input,"酷狗概念版",tag=应用名称,desc=填写app的用户名，用于提交app的相关信息
+appCategory = select,"Tool","Video&Photo","Game","Music",tag=应用类型
 isSupportChinese = switch,true,tag=支持中文,desc=选择app是否支持中文
 cron = input,"1 0 * * *",tag=定时任务,desc=定时任务的cron表达式
 cookieScriptEnable = switch,true,tag=是否获取CK
