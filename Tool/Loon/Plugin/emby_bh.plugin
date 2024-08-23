@@ -1,5 +1,5 @@
 #!name = Emby保号
-#!desc= 通杀所有Emby自动观看保号，使用方法：手动观看一次，提示获取成功✅即可食用|可多账号获取
+#!desc= 通杀所有Emby自动观看保号<br>使用方法：手动观看一次，提示获取成功✅即可食用|可多账号获取
 获取完参数请手动关闭重写
 #!openUrl= 
 #!author = 怎么肥事[https://github.com/ZenmoFeiShi]
@@ -13,7 +13,7 @@
 
 [Argument]
 CaptureAccountToken = switch, true, false, tag = 捕获账号令牌, desc = 此开关控制插件是否捕获账户令牌
-cron = input,"35 22 15,30 * *", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
+cron = input,"0 8 * * *",tag=定时任务时间,desc=定时任务的cron表达式
 appName = input,"emby",tag=应用名称,desc=填写app的用户名，用于提交app的相关信息
 appCategory = select,"Tool","Video&Photo","Game",tag=应用类型
 
@@ -27,3 +27,32 @@ cron｛cron｝script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/
 
 hostname = -*.fileball.app, *
 
+/*
+#!name = 
+#!desc= 
+#!openUrl= 
+#!author = xxx[url]
+#!homePage = 
+#!date = 
+#!icon = 
+#!system = ios
+#!system_version = 15.0
+#!loon_version = 3.2.1(734)
+#!tag = 解会员
+#!input = APP_ID
+[Argument]
+CaptureAccountToken = switch, true, false, tag = 捕获账号令牌, desc = 此开关控制插件是否捕获账户令牌
+CaptureAppID = switch, true, false, tag = 捕获应用ID, desc = 此开关控制插件是否捕获应用ID
+TimingParameters = input, "*/1 * * * * *", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
+appName = input,"Loon",tag=app的名字,desc=填写app的用户名，用于提交app的相关信息
+appCategory = select,"Tool","Video&Photo","Game",tag=app的分类
+isSupportChinese = switch,true,tag=是否支持中文,desc=选择app是否支持中文
+cron = input,"0 8 * * *",tag=定时任务时间,desc=定时任务的cron表达式
+cookieScriptEnable = switch,true,tag=是否启用获取cookie的脚本
+
+
+[Script]
+
+[MITM]
+hostname = 
+*
