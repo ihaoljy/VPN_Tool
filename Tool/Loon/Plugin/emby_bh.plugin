@@ -13,7 +13,7 @@
 
 [Argument]
 CaptureAccountToken = switch, true, false, tag = 是否捕获账号令牌, desc = 此开关控制插件是否捕获账户令牌
-iscronScriptEnable= switch, true, false, tag = 是否开启EMBY签到, desc = 此开关控制插件是否开启EMBY签到
+iscronScriptEnable = switch, true, false, tag = 是否开启EMBY签到, desc = 此开关控制插件是否开启EMBY签到
 cron = input,"0 8 * * *",tag=定时任务时间,desc=定时任务的cron表达式
 appName = input,"emby",tag=应用名称,desc=填写app的用户名，用于提交app的相关信息
 appCategory = select,"Tool","Video&Photo","Game",tag=应用类型
