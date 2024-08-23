@@ -13,7 +13,7 @@
 
 [Argument]
 CaptureAccountToken = switch, true, false, tag = 捕获账号令牌, desc = 此开关控制插件是否捕获账户令牌
-TimingParameters = input, "35 22 15,30 * * ", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
+TimingParameters = input, "35 22 15,30 * *", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
 appName = input,"emby",tag=应用名称,desc=填写app的用户名，用于提交app的相关信息
 appCategory = select,"Tool","Video&Photo","Game",tag=应用类型
 
