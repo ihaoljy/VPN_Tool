@@ -22,7 +22,7 @@ appCategory = select,"Tool","Video&Photo","Game",tag=应用类型
 [Script]
 http-request ^https:\/\/.+\/emby\/Sessions\/Playing\/Stopped script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Emby.js, requires-body=true, timeout=60, tag=Emby,argument=[{appName},{appCategory}], enable={CaptureAccountToken}
 
-cron｛cron｝script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Emby.js, timeout=120, tag=Emby自动观看, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/emby.png, enable={CaptureAccountToken}
+cron｛cron｝script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Emby.js, timeout=120, tag=Emby自动观看, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/emby.png
 [MITM]
 
 hostname = -*.fileball.app, *
