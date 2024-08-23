@@ -1,0 +1,29 @@
+#!name = Emby保号
+#!desc= 通杀所有Emby自动观看保号，使用方法：手动观看一次，提示获取成功✅即可食用|可多账号获取
+获取完参数请手动关闭重写
+#!openUrl= https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Emby.js
+#!author = 怎么肥事[https://github.com/ZenmoFeiShi/Qx/]
+#!homePage = https://github.com/ZenmoFeiShi
+#!date = 2024-8-24 05:34
+#!icon = https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/emby.png
+#!system = ios
+#!system_version = 15.0
+#!loon_version = 3.2.1(734)
+#!tag = 签到
+
+[Argument]
+CaptureAccountToken = switch, true, false, tag = 捕获账号令牌, desc = 此开关控制插件是否捕获账户令牌
+TimingParameters = input, "35 22 15,30 * * ", tag = 定时参数, desc = 这里需要输入符合CRON表达式的参数
+appName = input,"emby",tag=应用名称,desc=填写app的用户名，用于提交app的相关信息
+appCategory = select,"Tool","Video&Photo","Game",tag=应用类型
+
+
+
+[Script]
+http-request ^https:\/\/.+\/emby\/Sessions\/Playing\/Stopped script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Emby.js, requires-body=true, timeout=60, tag=Emby
+
+cron "35 22 15,30 * *" script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Emby.js, timeout=120, tag=Emby自动观看, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/emby.png
+[MITM]
+
+hostname = -*.fileball.app, *
+
