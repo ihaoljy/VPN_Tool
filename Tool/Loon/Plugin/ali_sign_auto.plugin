@@ -30,7 +30,7 @@ IP-CIDR, 203.107.1.1/24, REJECT, no-resolve
 # 定时签到
 cron {cron} script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/aliyun/ali_sign_auto.js, timeout=120, tag=阿里云签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png
 # 捕获token
-http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/aliyun/aDriveCheckIn/aDriveCheckIn.js, requires-body=true, timeout=60, tag=aDriveCheckIn,enable={CaptureAccountToken}
+http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/aliyun/aDriveCheckIn.js, requires-body=true, timeout=60, tag=aDriveCheckIn,enable={CaptureAccountToken}
 # 移除首页广告横幅、弹窗和顶部奖励
 http-response ^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets) script-path = https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/aliyun/AliYunDrive_remove_ads.js, requires-body = true, tag = 移除阿里云盘广告,enable={openordownads}
 http-response ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list script-path = https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/aliyun/AliYunDrive_remove_ads.js, requires-body = true, tag = 移除阿里云盘广告,enable={openordownads}
