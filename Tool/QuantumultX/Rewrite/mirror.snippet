@@ -1,9 +1,9 @@
 
 #!name=GitHub 加速
-#!desc=自动使用 mirror.ghproxy.com 加速(支持 raw, gist, archive, release 等各种链接)
+#!desc=自动使用 ghp.ci｜mirror.ghproxy.com 加速(支持 raw, gist, archive, release 等各种链接)
 
 [URL Rewrite]
-^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive))\/.+?)$ https://mirror.ghproxy.com/$1 302
+^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive))\/.+?)$ https://ghp.ci/$1 302
 
 [MITM]
 hostname = %APPEND% raw.githubusercontent.com, gist.githubusercontent.com, github.com
