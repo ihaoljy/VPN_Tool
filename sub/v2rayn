@@ -39,15 +39,21 @@ vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8890?encry
 # DUCK-圣保罗永久
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFN1x1RDgzQ1x1RERGN1x1NURGNFx1ODk3Ri1cdTgwNTZcdTRGRERcdTdGODUiLA0KICAiYWRkIjogInZpc2EuY29tIiwNCiAgInBvcnQiOiAiODA4MCIsDQogICJpZCI6ICJhNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInZtZXNzLmlib3gudXMua2ciLA0KICAicGF0aCI6ICIvYTZkNmQ2MjQtN2MwOC00NmE5LTlhZDctYTk4ZDY3MzE2NjhkLXZtZXNzIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
 
-# DC新加坡+圣保罗 无限流量，网友共享
+# 无限流量，网友共享
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRFx1RDgzQ1x1RERGMFx1OTk5OVx1NkUyRi1cdTY1RTBcdTk2NTBcdTZENDFcdTkxQ0YiLA0KICAiYWRkIjogInZpc2EuY29tIiwNCiAgInBvcnQiOiAiODA4MCIsDQogICJpZCI6ICJkNTE1MzlhZi04ODNlLTQ0MTQtYjAxYy1lZjQ2ZGFmMWUzNTQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImhrLmlib3gudXMua2ciLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
 
-hysteria2://01130e6dda139c1c@144.22.243.213:24749/?sni=www.bing.com&alpn=h3&insecure=1#%F0%9F%87%A7%F0%9F%87%B7%E5%9C%A3%E4%BF%9D%E7%BD%97hy2
+# DC新加坡+圣保罗
+hysteria2://01130e6dda139c1c@144.22.243.213:24749/?sni=www.bing.com&alpn=h3&insecure=1#%E5%9C%A3%E4%BF%9D%E7%BD%97hy2
+vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
+vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@de.ailicf.us.kg:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD
+vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
 
 # 🇵🇱波蘭-華沙-serv00.com
 vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@sk5.ibox.us.kg:443?encryption=none&security=tls&sni=sk5.ibox.us.kg&fp=randomized&allowInsecure=1&type=ws&host=sk5.ibox.us.kg&path=%2F%3Fed%3D2560#%F0%9F%87%B5%F0%9F%87%B1%E6%B3%A2%E8%98%AD-%E8%8F%AF%E6%B2%99
 
 # 帕萨云美国1M
-ss://YWVzLTI1Ni1nY206b2ZlVGJUeW00RA==@[2604:abc0:103:415:4::109]:26726#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-%E7%BA%BD%E7%BA%A61M
+# ss://YWVzLTI1Ni1nY206b2ZlVGJUeW00RA==@[2604:abc0:103:415:4::109]:26726#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-%E7%BA%BD%E7%BA%A61M
 
 # BINCOULD-DALLAS
 hysteria2://a6d6d624-7c08-46a9-9ad7-a98d6731668d@23.26.137.219:49771/?alpn=h3&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-%E7%BA%BD%E7%BA%A61
