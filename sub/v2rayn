@@ -25,11 +25,11 @@ vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@sk5.ibox.us.kg:443?encryption=none&
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFN1x1RDgzQ1x1RERGN1x1NURGNFx1ODk3Ri1cdTgwNTZcdTRGRERcdTdGODUiLA0KICAiYWRkIjogInZpc2EuY29tIiwNCiAgInBvcnQiOiAiODA4MCIsDQogICJpZCI6ICJhNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInZtZXNzLmlib3gudXMua2ciLA0KICAicGF0aCI6ICIvYTZkNmQ2MjQtN2MwOC00NmE5LTlhZDctYTk4ZDY3MzE2NjhkLXZtZXNzIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
 
 # DC新加坡+圣保罗 无限流量，网友共享
-hysteria2://01130e6dda139c1c@144.22.243.213:24749/?sni=www.bing.com&alpn=h3&insecure=1#%E5%9C%A3%E4%BF%9D%E7%BD%97hy2
-vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
-vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@de.ailicf.us.kg:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD
-vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+#hysteria2://01130e6dda139c1c@144.22.243.213:24749/?sni=www.bing.com&alpn=h3&insecure=1#%E5%9C%A3%E4%BF%9D%E7%BD%97hy2
+#vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
+#vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+#vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@de.ailicf.us.kg:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD
+#vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
 
 # VPN提取
 vmess://YXV0bzo0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjRAMTIwLjIzMi4xNTMuNDA6NTI0NDI?remarks=%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF1&obfs=none&alterId=64
