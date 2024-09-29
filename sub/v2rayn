@@ -40,13 +40,13 @@ vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@sk5.ibox.us.kg:443?encryption=none&
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFN1x1RDgzQ1x1RERGN1x1NURGNFx1ODk3Ri1cdTgwNTZcdTRGRERcdTdGODUiLA0KICAiYWRkIjogInZpc2EuY29tIiwNCiAgInBvcnQiOiAiODA4MCIsDQogICJpZCI6ICJhNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInZtZXNzLmlib3gudXMua2ciLA0KICAicGF0aCI6ICIvYTZkNmQ2MjQtN2MwOC00NmE5LTlhZDctYTk4ZDY3MzE2NjhkLXZtZXNzIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
 
 # DC新加坡+圣保罗 无限流量，网友共享
-vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
-vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@de.ailicf.us.kg:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD
-vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@visa.com:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-vless://e3dc0d6a-aa94-4d1f-e930-f162aec8b624@visa.com:80?encryption=none&security=none&type=ws&host=sbl.ailicf.us.kg&path=%2F3dc0d6a#DC%E5%9C%A3%E4%BF%9D%E7%BD%97
-vless://e3dc0d6a-aa94-4d1f-e930-f162aec8b624@carmelo.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=sbl.ailicf.us.kg&path=%2F3dc0d6a#DC%E5%9C%A3%E4%BF%9D%E7%BD%97-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-vless://b5cdabf0-e048-4fa2-90da-9379b1a4926e@carmelo.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=cc.ailicf.us.kg&path=%2Fb5cdabf0-e04#CC%E7%BE%8E%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+#vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
+#vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+#vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@de.ailicf.us.kg:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD
+#vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@visa.com:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+#vless://e3dc0d6a-aa94-4d1f-e930-f162aec8b624@visa.com:80?encryption=none&security=none&type=ws&host=sbl.ailicf.us.kg&path=%2F3dc0d6a#DC%E5%9C%A3%E4%BF%9D%E7%BD%97
+#vless://e3dc0d6a-aa94-4d1f-e930-f162aec8b624@carmelo.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=sbl.ailicf.us.kg&path=%2F3dc0d6a#DC%E5%9C%A3%E4%BF%9D%E7%BD%97-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+#vless://b5cdabf0-e048-4fa2-90da-9379b1a4926e@carmelo.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=cc.ailicf.us.kg&path=%2Fb5cdabf0-e04#CC%E7%BE%8E%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
 
 
 # bincloud-JP
