@@ -2,57 +2,6 @@
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFVTLVBob2VuaXgxIiwNCiAgImFkZCI6ICIxNTguMTAxLjUuMTA3IiwNCiAgInBvcnQiOiAiMzY0MDkiLA0KICAiaWQiOiAiYWQ5NzE3OTgtM2IzYy00OTQ5LWZiODMtMjYzYmNhODBlYWM2IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJodHRwIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
 vless://37b948d4-0396-492d-f410-9ca07a538fa5@visa.com:8080?encryption=none&security=none&type=ws&host=phoenix-vl.ibox.us.kg&path=%2F#%F0%9F%87%BA%F0%9F%87%B8US-Phoenix2
 
-# 某VPN提取
-#vmess://YXV0bzo0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjRAMTIwLjIzMi4xNTMuNDA6NTI0NDI?remarks=%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF1&obfs=none&alterId=64
-# vmess://YXV0bzo0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjRAMTgzLjIzNi40OC4xNjM6NTQ4ODI?remarks=%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF2&obfs=none&alterId=64
-# vmess://YXV0bzo0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjRAMTEyLjEzMi4yMTIuMTk6NTAwMDQ?remarks=%F0%9F%87%AE%F0%9F%87%B9%E6%84%8F%E5%A4%A7%E5%88%A9&obfs=none&alterId=64
-
-# 无限流量，网友共享
-#vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRFx1RDgzQ1x1RERGMFx1OTk5OVx1NkUyRi1cdTY1RTBcdTk2NTBcdTZENDFcdTkxQ0YiLA0KICAiYWRkIjogInZpc2EuY29tIiwNCiAgInBvcnQiOiAiODA4MCIsDQogICJpZCI6ICJkNTE1MzlhZi04ODNlLTQ0MTQtYjAxYy1lZjQ2ZGFmMWUzNTQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImhrLmlib3gudXMua2ciLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-
-#五叶TG分享香港节点（1.新协议  2.旧协议）
-#ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Q2dpbGhxWTM2ZWlWZFdPMUEvNlFoVlh4aDJnNXU0TmNUQkFyMENJVmxmRT0=@[2a0f:7803:fb40:2f::d]:64011#%F0%9F%87%AD%F0%9F%87%B0Hong%20Kong-new%20HKBGP%208Gbps%20%E6%B5%81%E5%AA%92%E4%BD%93%E8%A7%A3%E9%94%81%20Media%20Unlock%20TikTok%20Trial
-#ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDZ2lsaHFZMzZlaVZkV08xQS82UWhWWHhoMmc1dTROY1RCQXIwQ0lWbGZFPQ==@[2a0f:7803:fb40:2f::a]:24011#%F0%9F%87%AD%F0%9F%87%B0Hong%20Kong-old%20HKBGP%208Gbps%20%E6%B5%81%E5%AA%92%E4%BD%93%E8%A7%A3%E9%94%81%20Media%20Unlock%20TikTok%20Trial
-
-# 赛盾VPN提取
-#vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRFx1RDgzQ1x1RERGMFx1OTk5OVx1NkUyRjEtXHU4RDVCXHU3NkZFVlBOIiwNCiAgImFkZCI6ICJuMTcyNjcwOTgwMi5hZmppYW4uY24iLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiNzAxMWE4YmUtMmQxNi00OWM1LWEzOTctMjhhZjdkMWQxYTRlIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJuMTcyNjcwOTgwMi5hZmppYW4uY24iLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIm4xNzI2NzA5ODAyLmFmamlhbi5jbiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-#vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRFx1RDgzQ1x1RERGMFx1OTk5OVx1NkUyRjItXHU4RDVCXHU3NkZFVlBOIiwNCiAgImFkZCI6ICJuMTcyNjcwOTc4OC5yeWptbC5jbiIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICI2ZTYwNzc2NC05ZTIwLTQyMTUtYTE0YS1lZWIwZGNmNGJkMzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIm4xNzI2NzA5Nzg4LnJ5am1sLmNuIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-#vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRFx1RDgzQ1x1RERGMFx1OTk5OVx1NkUyRjMtXHU4RDVCXHU3NkZFVlBOIiwNCiAgImFkZCI6ICJuMTcyNjcwOTgwMC5hZmppYW4uY24iLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiN2IzZjNkYmYtYWU5ZS00NGRjLWE0ZmItYTEwZDg3MmRkNDQ1IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJuMTcyNjcwOTgwMC5hZmppYW4uY24iLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-
-# SuperVPN提取
-#香港
-#trojan://3669023850785677312@immense-buzzard.mite885.beauty:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF-%E4%B9%9D%E9%BE%99
-#日本
-#trojan://3669023850785677312@loving-bison.mite885.beauty:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC-TokyoPro1
-# trojan://3669023850785677312@innocent-skink.piranha048.quest:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC-TokyoPro2
-#韩国
-#trojan://3669023850785677312@better-goblin.mite885.beauty:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD-SeoulPro1
-#trojan://3669023850785677312@joint-vulture.muskrat222.xyz:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD-SeoulPro2
-#trojan://3669023850785677312@curious-lion.piranha048.quest:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%E9%9F%A9%E5%9B%BD-SeoulPro3
-#新加坡
-#trojan://3669023850785677312@champion-dog.lab300.lat:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1Pro1
-#trojan://3669023850785677312@related-poodle.piranha048.quest:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1Pro2
-#trojan://3669023850785677312@outgoing-pigeon.piranha048.quest:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1Pro3
-#trojan://3669023850785677312@related-poodle.piranha048.quest:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1Pro4
-#trojan://3669023850785677312@advanced-hedgehog.piranha048.quest:443?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1Pro5
-
-# 🇵🇱波蘭-華沙-serv00.com
-#vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@sk5.ibox.us.kg:443?encryption=none&security=tls&sni=sk5.ibox.us.kg&fp=randomized&allowInsecure=1&type=ws&host=sk5.ibox.us.kg&path=%2F%3Fed%3D2560#%F0%9F%87%B5%F0%9F%87%B1%E6%B3%A2%E8%98%AD-%E8%8F%AF%E6%B2%99
-
-# DUCK-圣保罗永久
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFN1x1RDgzQ1x1RERGN1x1NURGNFx1ODk3Ri1cdTgwNTZcdTRGRERcdTdGODUiLA0KICAiYWRkIjogInZpc2EuY29tIiwNCiAgInBvcnQiOiAiODA4MCIsDQogICJpZCI6ICJhNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogIm5vbmUiLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImR2bWVzcy5pYm94LnVzLmtnIiwNCiAgInBhdGgiOiAiL2E2ZDZkNjI0LTdjMDgtNDZhOS05YWQ3LWE5OGQ2NzMxNjY4ZC12bWVzcyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-
-
-# DC新加坡+圣保罗 无限流量，网友共享
-#vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
-#vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-#vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@de.ailicf.us.kg:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD
-#vless://62ae1cc9-5940-4f21-a0ed-1c13b32b5908@visa.com:80?encryption=none&security=none&sni=de.ailicf.us.kg&allowInsecure=1&type=ws&host=de.ailicf.us.kg&path=%2Fsafaf#DC%E5%BE%B7%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-#vless://e3dc0d6a-aa94-4d1f-e930-f162aec8b624@visa.com:80?encryption=none&security=none&type=ws&host=sbl.ailicf.us.kg&path=%2F3dc0d6a#DC%E5%9C%A3%E4%BF%9D%E7%BD%97
-#vless://e3dc0d6a-aa94-4d1f-e930-f162aec8b624@carmelo.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=sbl.ailicf.us.kg&path=%2F3dc0d6a#DC%E5%9C%A3%E4%BF%9D%E7%BD%97-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-#vless://b5cdabf0-e048-4fa2-90da-9379b1a4926e@carmelo.ns.cloudflare.com:80?encryption=none&security=none&type=ws&host=cc.ailicf.us.kg&path=%2Fb5cdabf0-e04#CC%E7%BE%8E%E5%9B%BD-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
-
-
 # bincloud-JP
 hysteria2://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8882/?alpn=h3&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC-%E6%9D%B1%E4%BA%AC%E9%83%BD1
 tuic://a6d6d624-7c08-46a9-9ad7-a98d6731668d:a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8883?alpn=h3&congestion_control=bbr#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC-%E6%9D%B1%E4%BA%AC%E9%83%BD2
@@ -65,16 +14,8 @@ vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8881?encry
 vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@[2600:1900:4050:63e::e9]:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=bEvAy5sZA3dfJ6U2tHawig2S_EogckJVY-8Ku0VT6Vc&allowInsecure=1&type=grpc&authority=&serviceName=grpc&mode=gun#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC-%E6%9D%B1%E4%BA%AC%E9%83%BD9
 
 # BINCOULD-DALLAS
-hysteria2://a6d6d624-7c08-46a9-9ad7-a98d6731668d@23.26.137.219:49354/?alpn=h3&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%201
-tuic://a6d6d624-7c08-46a9-9ad7-a98d6731668d:a6d6d624-7c08-46a9-9ad7-a98d6731668d@23.26.137.219:49355?alpn=h3&congestion_control=bbr#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%202
-ss://YWVzLTEyOC1nY206YTZkNmQ2MjQtN2MwOC00NmE5LTlhZDctYTk4ZDY3MzE2Njhk@23.26.137.219:49357#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%203
-trojan://a6d6d624-7c08-46a9-9ad7-a98d6731668d@23.26.137.219:49358?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%204
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFx1N0Y4RVx1NTZGRC1EYWxsYXMgNSIsDQogICJhZGQiOiAidmlzYS5jb20iLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICJhNmQ2ZDYyNC03YzA4LTQ2YTktOWFkNy1hOThkNjczMTY2OGQiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogIm5vbmUiLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImRhbGxhcy12bS5pYm94LnVzLmtnIiwNCiAgInBhdGgiOiAiL2E2ZDZkNjI0LTdjMDgtNDZhOS05YWQ3LWE5OGQ2NzMxNjY4ZC12bWVzcyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
 vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@visa.com:8443?encryption=none&security=tls&sni=dallas-vl.ibox.us.kg&allowInsecure=1&type=ws&host=dallas-vl.ibox.us.kg&path=%2Fa6d6d624-7c08-46a9-9ad7-a98d6731668d-vless%3Fed%3D2048#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%206
-vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@23.26.137.219:49361?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=GV5ea3yu3HzLDSMTaXmDg8woUZMpBaS7Jd780SqZd04&allowInsecure=1&type=http&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%207
-vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@23.26.137.219:49353?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=GV5ea3yu3HzLDSMTaXmDg8woUZMpBaS7Jd780SqZd04&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%208
-vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@23.26.137.219:49362?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=GV5ea3yu3HzLDSMTaXmDg8woUZMpBaS7Jd780SqZd04&allowInsecure=1&type=grpc&authority=&serviceName=grpc&mode=gun#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-Dallas%209
-
 
 
 
