@@ -1,3 +1,18 @@
+# 什么是 Clash?
+> 欢迎访问 Clash 内核项目的官方说明文档.
+> Clash是一个跨平台的基于规则的代理工具, 在网络和应用层运行, 它已被互联网用户广泛采用. 无论如何, 任何想要改善其 Internet 体验的人都可以使用 Clash.
+
+### 官网：https://clash.wiki/
+
+虽然这个 Wiki 涵盖了上述两个版本的内容, 然而对于普通用户来说, Clash 的使用可能仍是一种挑战. 而对于考虑使用 GUI 客户端的用户, 我们确实有一些建议:
+
+[Clash for Windows](https://downloads.clash.wiki/clash_for_windows_pkg) [Premium 功能] (经 SHA256 验证的下载)
+[Clash for iOS](https://apps.apple.com/app/stash/id1596063349) [Premium 功能] (Stash)
+[Clash for Android](https://downloads.clash.wiki/ClashForAndroid) [Premium 功能] (经 SHA256 验证的下载)
+[Clash for macOS](https://stash.ws/) [Premium 功能] (Stash for macOS)
+[ClashX Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) [Premium 功能] (macOS)
+[Clash for OpenWrt](https://github.com/vernesong/OpenClash/releases) (OpenClash)
+
 ## 一、 Clash For Windows与v2rayN 下载+汉化
 
 ### 客户端下载地址：
@@ -37,7 +52,9 @@ Clash for Windows\resources\app.asar
 ### 手机端端下载地址：
 1.Clash 安卓客户端：https://github.com/naicfeng/ClashRForAndroid/releases
 
-2.ClashForAndroid永久更新地址：https://github.com/MetaCubeX/ClashMetaForAndroid/releases
+2.ClashForAndroid永久更新地址1：https://github.com/MetaCubeX/ClashMetaForAndroid/releases  
+
+永久更新地址2：https://downloads.clash.wiki/ClashForAndroid/
 
 3.v2rayNG永久更新地址：https://github.com/2dust/v2rayNG/releases
 
