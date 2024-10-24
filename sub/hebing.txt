@@ -14,14 +14,6 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU1LjI0NS42Mjo0NDM=#SG, Singapore
 
 # xbfn
 trojan://rmDvTUiy4W@cwt0827a.iamgone.top:10001?security=tls&allowInsecure=1&type=tcp&headerType=none#%E9%A6%99%E6%B8%AF
-trojan://tW8tHO8tfI@kajp1130a.iamgone.top:20048?security=tls&allowInsecure=1&type=tcp&headerType=none#%E6%97%A5%E6%9C%AC
-trojan://wLi1F7vLhq@vvr9527a.iamback.top:20060?security=tls&allowInsecure=1&type=tcp&headerType=none#%E9%9F%A9%E5%9B%BD
-trojan://wLi1F7vLhq@vvr9527a.iamback.top:20060?security=tls&allowInsecure=1&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1
-trojan://tW8tHO8tfI@kajp1130a.iamgone.top:20048?security=tls&allowInsecure=1&type=tcp&headerType=none#%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B8%89%E7%BA%BF
-trojan://yBfgscQlsB@qqtw9527kc.tuizhi19.com:20138?security=tls&allowInsecure=1&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BD
-trojan://wZ79Yus8vC@118.163.101.40:10003?security=tls&allowInsecure=1&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BD%E4%BA%8C%E7%BA%BF
-trojan://tW8tHO8tfI@kajp1130a.iamgone.top:20048?security=tls&allowInsecure=1&type=tcp&headerType=none#ChatGPT
-trojan://yBfgscQlsB@qqtw9527kc.tuizhi19.com:20138?security=tls&allowInsecure=1&type=tcp&headerType=none#%E8%A7%86%E9%A2%91%E4%B8%93%E7%BA%BF
 
 # 叮当猫群里文件  某vpn.txt
 ss://YWVzLTI1Ni1nY206VEU5OVg5SjlZQVBTS1dLSA==@120.241.45.50:20017#AE-01
