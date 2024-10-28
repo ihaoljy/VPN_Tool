@@ -21,8 +21,3 @@ vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@visa.com:8443?encryption=none&secur
 
 # 甲骨文-凤凰城amd2
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLlh6Tlh7Dln44wMSIsCiAgImFkZCI6ICIxNTguMTAxLjUuMTA3IiwKICAicG9ydCI6IDMwNTE5LAogICJpZCI6ICJlMzc2N2QxYS1lMDE1LTQxNjgtZjljMi1hOTg3NzA4MjVhYjEiLAogICJhaWQiOiAwLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJodHRwIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi8iLAogICJ0bHMiOiAibm9uZSIKfQ==
-# 甲骨文-凤凰城amd1
-vless://0b633e04-d34e-4060-8874-7ced6af734c5@141.148.155.236:30102?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=pCi1lwMg2ZalTh2BtMHI1XCDfxrekwyP9RdoyhuUARM&sid=55491c18&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC01
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRlx1RDgzQ1x1RERGNVx1NjVFNVx1NjcyQzAyIiwNCiAgImFkZCI6ICIxNDEuMTQ4LjE1NS4yMzYiLA0KICAicG9ydCI6ICIyMDk1IiwNCiAgImlkIjogIjBiNjMzZTA0LWQzNGUtNDA2MC04ODc0LTdjZWQ2YWY3MzRjNSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAid3d3LmJpbmcuY29tIiwNCiAgInBhdGgiOiAiMGI2MzNlMDQtZDM0ZS00MDYwLTg4NzQtN2NlZDZhZjczNGM1LXZtIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-hysteria2://0b633e04-d34e-4060-8874-7ced6af734c5@141.148.155.236:48955/?sni=www.bing.com&alpn=h3&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC03
-tuic://0b633e04-d34e-4060-8874-7ced6af734c5:0b633e04-d34e-4060-8874-7ced6af734c5@141.148.155.236:50973?sni=www.bing.com&alpn=h3&congestion_control=bbr#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC04
