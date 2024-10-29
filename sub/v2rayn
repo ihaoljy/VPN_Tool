@@ -2,6 +2,13 @@ vless://7d78ecee-850f-48fc-92d3-00cdababca30@yl2s.0owap.xyz:443?encryption=none&
 vless://1f83827d-b91f-45e1-968b-b7ee597b7d52@274c.0owap.xyz:443?encryption=none&security=tls&allowInsecure=1&type=ws&host=274c.0owap.xyz&path=%2F1f83827d-b91f-45e1-968b-b7ee597b7d52#%F0%9F%87%AD%F0%9F%87%B0HongKong2
 vless://b31dbc8b-251f-44eb-982d-b421cfc61b44@afrxp.s7e6tw3p.xyz:443?encryption=none&security=tls&allowInsecure=1&type=ws&host=afrxp.s7e6tw3p.xyz&path=%2Fb31dbc8b-251f-44eb-982d-b421cfc61b44#%F0%9F%87%AD%F0%9F%87%B0HongKong3
 vless://1a8a848e-8dcb-4f05-a048-3c9655e27e05@yysu.0owap.xyz:443?encryption=none&security=tls&allowInsecure=1&type=ws&host=yysu.0owap.xyz&path=%2F1a8a848e-8dcb-4f05-a048-3c9655e27e05#%F0%9F%87%AD%F0%9F%87%B0HongKong4
+# 闪连VPN提取
+ss://YWVzLTEyOC1nY206YWI5NmQ2MWIxZDI0NDA1YmIxNWI3N2VkMjMzOTQ1N2E=@58.63.250.45:40010#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%20IPLC-%F0%9F%85%A2%F0%9F%85%9B
+
+# 网友分享
+vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
+vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
+
 
 
 # bincloud-JP
@@ -25,3 +32,10 @@ vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLlh6Tlh7Dln44wMSIsCiAgImFkZCI6ICIxNTguMTAx
 # 马铃薯 https://mlshu.com/
 hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node13.mlshu.top:30001/?insecure=1#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC%E5%85%AC%E5%BC%80
 hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node18.mlshu.top:30001/?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%BC%80
+
+# HW 群友分享
+vless://0dd1347e-e342-456c-b802-779b859cca42@erin.ns.cloudflare.com:443?encryption=none&security=tls&sni=leasweb.armaaan.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=leasweb.armaaan.com&path=%2FchatApiws#%F0%9F%87%AC%F0%9F%87%A7Server-3-Ultra
+vless://6128e632-9c30-43e2-b90f-a648261de8e3@erin.ns.cloudflare.com:443?encryption=none&security=tls&sni=ulla.arrrsham.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=ulla.arrrsham.com&path=%2Fbdaiws#%F0%9F%87%A9%F0%9F%87%AAServer-5-Ultra
+vless://a83af718-b158-491d-97fc-158560d797fe@erin.ns.cloudflare.com:443?encryption=none&security=tls&sni=hda.arshshsham.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=hda.arshshsham.com&path=%2Fodzmws#%F0%9F%87%A9%F0%9F%87%AAServer-6-Ultra
+vless://2aa49581-287b-4753-b0a0-de8850e636b2@erin.ns.cloudflare.com:443?encryption=none&security=tls&sni=leasweb.baaaran.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=leasweb.baaaran.com&path=%2Feetmws#%F0%9F%87%B3%F0%9F%87%B1Server-7-Ultra
+vless://30283956-277f-4605-a187-9f8a8238af9f@erin.ns.cloudflare.com:443?encryption=none&security=tls&sni=k803.omiiid.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=k803.omiiid.com&path=%2Fcjkuws#%F0%9F%87%BA%F0%9F%87%B8Server-8-Ultra
