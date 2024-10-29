@@ -21,3 +21,7 @@ vless://a6d6d624-7c08-46a9-9ad7-a98d6731668d@visa.com:8443?encryption=none&secur
 
 # 甲骨文-凤凰城amd2
 vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICLlh6Tlh7Dln44wMSIsCiAgImFkZCI6ICIxNTguMTAxLjUuMTA3IiwKICAicG9ydCI6IDMwNTE5LAogICJpZCI6ICJlMzc2N2QxYS1lMDE1LTQxNjgtZjljMi1hOTg3NzA4MjVhYjEiLAogICJhaWQiOiAwLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJodHRwIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi8iLAogICJ0bHMiOiAibm9uZSIKfQ==
+
+# 马铃薯 https://mlshu.com/
+hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node13.mlshu.top:30001/?insecure=1#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC%E5%85%AC%E5%BC%80
+hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node18.mlshu.top:30001/?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%BC%80
