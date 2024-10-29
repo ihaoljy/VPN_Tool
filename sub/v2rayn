@@ -4,7 +4,10 @@ vless://b31dbc8b-251f-44eb-982d-b421cfc61b44@afrxp.s7e6tw3p.xyz:443?encryption=n
 vless://1a8a848e-8dcb-4f05-a048-3c9655e27e05@yysu.0owap.xyz:443?encryption=none&security=tls&allowInsecure=1&type=ws&host=yysu.0owap.xyz&path=%2F1a8a848e-8dcb-4f05-a048-3c9655e27e05#%F0%9F%87%AD%F0%9F%87%B0HongKong4
 # 闪连VPN提取
 ss://YWVzLTEyOC1nY206YWI5NmQ2MWIxZDI0NDA1YmIxNWI3N2VkMjMzOTQ1N2E=@58.63.250.45:40010#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%20IPLC-%F0%9F%85%A2%F0%9F%85%9B
+ss://YWVzLTI1Ni1nY206WkNHREEyNUxTOURZTVZOQUAxMjAuMjQxLjQ1LjUwOjE1MDAy#%F0%9F%87%AD%F0%9F%87%B0%E9%97%AA%E8%BF%9E%E9%A6%99%E6%B8%AF%20IPLC7
 
+# Vless-xtls-rprs-vision
+vless://bm9uZTo5ZWUwM2FmMC1lZmI2LTRjNzItODNlMi0zYzZmZTRlZDhhYWJAMjEzLjEzMC4xNDEuNjk6NDg1MjA?remarks=Duocloud%20HK&obfs=none&tls=1&peer=polyu.edu.hk&xtls=2&pbk=9oktEDuwzxvTHqKTLQW_zhr9bUiYSnO7FD0gUKnA0Vw&sid=42a91e747645
 # 网友分享
 vless://571f64c7-bff0-4d33-8765-56ad2334cb55@carmelo.ns.cloudflare.com:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#%F0%9F%87%A8%F0%9F%87%A6DC%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E4%BC%98%E9%80%89%E5%9F%9F%E5%90%8D
 vless://571f64c7-bff0-4d33-8765-56ad2334cb55@ca.ailicf.us.kg:80?encryption=none&security=none&sni=ca.ailicf.us.kg&allowInsecure=1&type=ws&host=ca.ailicf.us.kg&path=%2Fascb#%F0%9F%87%A8%F0%9F%87%A6DC%E5%8A%A0%E6%8B%BF%E5%A4%A7
