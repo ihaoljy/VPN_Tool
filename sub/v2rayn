@@ -37,7 +37,7 @@ hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node13.mlshu.top:30001/?insecur
 hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node18.mlshu.top:30001/?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%BC%80
 
 # HW 群友分享
-vless://0dd1347e-e342-456c-b802-779b859cca42@visa.com:443?encryption=none&security=tls&sni=leasweb.armaaan.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=leasweb.armaaan.com&path=%2FchatApiws#%F0%9F%87%AC%F0%9F%87%A7Server-3-Ultra
+#vless://0dd1347e-e342-456c-b802-779b859cca42@visa.com:443?encryption=none&security=tls&sni=leasweb.armaaan.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=leasweb.armaaan.com&path=%2FchatApiws#%F0%9F%87%AC%F0%9F%87%A7Server-3-Ultra
 vless://6128e632-9c30-43e2-b90f-a648261de8e3@visa.com:443?encryption=none&security=tls&sni=ulla.arrrsham.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=ulla.arrrsham.com&path=%2Fbdaiws#%F0%9F%87%A9%F0%9F%87%AAServer-5-Ultra
 vless://a83af718-b158-491d-97fc-158560d797fe@visa.com:443?encryption=none&security=tls&sni=hda.arshshsham.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=hda.arshshsham.com&path=%2Fodzmws#%F0%9F%87%A9%F0%9F%87%AAServer-6-Ultra
 vless://2aa49581-287b-4753-b0a0-de8850e636b2@visa.com:443?encryption=none&security=tls&sni=leasweb.baaaran.com&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=leasweb.baaaran.com&path=%2Feetmws#%F0%9F%87%B3%F0%9F%87%B1Server-7-Ultra
