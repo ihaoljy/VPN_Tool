@@ -37,6 +37,20 @@ vless://c2b7d04c-d13f-43f1-abaa-99bd9e2faa75@185.143.228.57:49424?encryption=non
 # 甲骨文-凤凰城amd2
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFx1N0Y4RVx1NTZGRC1cdTUxRTRcdTUxRjBcdTU3Q0UiLA0KICAiYWRkIjogIjE1OC4xMDEuNS4xMDciLA0KICAicG9ydCI6ICIzMDUxOSIsDQogICJpZCI6ICJlMzc2N2QxYS1lMDE1LTQxNjgtZjljMi1hOTg3NzA4MjVhYjEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogImh0dHAiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
 
+# 甲骨文-凤凰城amd1
+hysteria2://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8882/?alpn=h3&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E01
+tuic://65891fa7-7f92-4201-838d-b6cdd4340eb4:65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8883?alpn=h3&congestion_control=bbr#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E02
+ss://YWVzLTEyOC1nY206NjU4OTFmYTctN2Y5Mi00MjAxLTgzOGQtYjZjZGQ0MzQwZWI0@129.153.196.161:8885#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E03
+trojan://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8886?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E04
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFx1N0Y4RVx1NTZGRFx1NTFFNFx1NTFGMFx1NTdDRTA1IiwNCiAgImFkZCI6ICJ2aXNhLmNvbSIsDQogICJwb3J0IjogIjg4ODAiLA0KICAiaWQiOiAiNjU4OTFmYTctN2Y5Mi00MjAxLTgzOGQtYjZjZGQ0MzQwZWI0IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJub25lIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogImF1dG8iLA0KICAiaG9zdCI6ICJhbWQtdm0uaWJveC51cy5rZyIsDQogICJwYXRoIjogIi82NTg5MWZhNy03ZjkyLTQyMDEtODM4ZC1iNmNkZDQzNDBlYjQtdm1lc3MiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@visa.com:443?encryption=none&security=tls&sni=amd-vl.ibox.us.kg&allowInsecure=1&type=ws&host=amd-vl.ibox.us.kg&path=%2F65891fa7-7f92-4201-838d-b6cdd4340eb4-vless#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E06
+vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8881?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E07
+vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8889?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=http&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E08
+vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=grpc&authority=&serviceName=grpc&mode=gun#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E09
+
+
+
+
 # 马铃薯 https://mlshu.com/
 hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node13.mlshu.top:30001/?insecure=1#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC%E5%85%AC%E5%BC%80
 hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node18.mlshu.top:30001/?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%BC%80
