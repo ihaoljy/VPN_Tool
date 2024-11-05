@@ -1,44 +1,121 @@
-#!name = 网易云音乐去广告
-#!desc = 过滤网易云音乐广告
-#!open= 
-#!author = Keywos RuCu6 kokoryh
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/QuantumultX/Rewrite
+// ==UserScript==
+// @ScriptName        网易云音乐净化[墨鱼版]
+// @Author            @ddgksf2013
+// @ForHelp           压抑云之旅开始啦
+// @WechatID          墨鱼手记
+// @TgChannel         https://t.me/ddgksf2021
+// @Contribute        https://t.me/ddgksf2013_bot
+// @Feedback          📮 ddgksf2013@163.com 📮
+// @UpdateTime        2024-10-12
+// @Suitable          自行观看“# > ”注释内容
+// @Attention         如需引用请注明出处，谢谢合作！
+// @Version           V1.0.32
+// @RewriteURL        https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseAds.conf
+// ==/UserScript==
 
-#[rewrite_local]
-# 开屏广告、首页顶部横幅广告
-^https?:\/\/interface3?\.music\.163.com\/eapi\/ad\/.* url reject-dict
 
-# 搜索页、填充词、排行榜
-^https?:\/\/interface3?\.music\.163.com\/eapi\/search\/(chart\/(detail|list)$|default\/keyword\/list\?|rcmd\/keyword\/get\/v2$|specialkeyword\/get\?) url reject-dict
+// 墨鱼：默认不去除底部【漫游】，可在侧栏设置中手动关闭
 
-# 播放页、多余图标、各种小提示、高品质音乐试用弹窗
-^https:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get)\? url reject-dict
-^https:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get\? url reject-dict
-^https:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list\? url reject-dict
-^https:\/\/interface3\.music\.163\.com\/eapi\/(user\/sub\/artist\/exist|vipcenter\/tspopup\/get)\? url reject-dict
-^https:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get\? url reject-dict
-^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get\? url reject-dict
 
-# 评论页、回复广告、星评馆
-^https:\/\/interface3\.music\.163\.com\/eapi\/batch\? url request-header appver=.+; request-header appver=2333;
-^https?:\/\/interface3\.music\.163\.com\/eapi\/comment\/(hotcomment\/collect\/fetchmodelinfov2|feed\/inserted\/resources|tips\/v2\/get)\? url reject-dict
-^https?:\/\/interface3\.music\.163\.com\/eapi\/v1\/content\/exposure\/comment\/banner\/get\? url reject-dict
-
-# 首页、右上角多余图标、会员续费弹窗、侧边栏推广
-^https:\/\/interface3\.music\.163\.com\/eapi\/event\/floating\/layer\? url reject-dict
-^https:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource)\? url reject-dict
-^https:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle)\? url reject-dict
-^https:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver)\? url reject-dict
-
-# 我的页面、小部件红点
-^https:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint\? url reject-dict
-
-# 播客、弹出广告
-^https:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info\? url reject-dict
-
-# 歌单页、横幅广告
-^https:\/\/interface\.music\.163\.com\/weapi\/middle\/clientcfg\/config\/list\? url reject-dict
-^https:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config)\? url reject-dict
-
-#[mitm]
 hostname = interface*.music.163.com
+
+
+# ======= 网易云框架区 ======= #
+# > 底部Tab@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/home\/framework\/tab url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 发现页@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 首推荐页@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/rcmd\/resource\/show url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 软件更新@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ios\/upgrade\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+
+
+# ======= 网易云搜索区 ======= #
+# > 搜索默认填词@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/default\/keyword\/list url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 猜你喜欢@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/rcmd\/keyword\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 搜索下方Chart@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/list url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 搜索Chart@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/detail url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 相关搜索@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/suggest\/keyword\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 特殊词@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/specialkeyword\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+
+
+# ======= 网易云推广区 ======= #
+# > 广告加载@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 广告实时@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/current url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 广告Get@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 插入广告@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/position\/show\/resource url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 歌单顶部广告@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/scene\/show\/resource url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 活动推广@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/content\/activity\/music\/jar\/template\/list url reject-200
+# > 弹窗免费听歌@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vip\/cashier\/tspopup\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 启动领VIP弹窗@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/sp\/flow\/popup\/query url reject-200
+
+
+# ======= 网易云侧栏区 ======= #
+# > 侧栏账户@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vipnewcenter\/app\/resource\/newaccountpage url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 侧栏推广@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/side-bar\/mini-program\/music-service\/account url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 侧边VIP推广@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/deliver url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 侧边浮层@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/batch-deliver url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 优惠券@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vipmall\/couponcfg\/get url reject-200
+# > 侧边兑换黑胶Tips@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/yunbei\/account\/entrance\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 侧边创作福利@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/creator\/musician\/reminder\/message\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+
+
+# ======= 网易云歌曲区 ======= #
+# > 评论区插入推广@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/batch url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
+# > 活动推广@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/w?eapi\/(resource-exposure\/)?activity url reject-200
+# > 评论区插入推广@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/comment\/feed\/inserted\/resources url reject-200
+# > 购买实体专辑@ddgksf2013
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/resource-exposure\/config url reject-200
+
+
+# ======= 网易云请求区 ======= #
+# > 删除AEAPI[临时法，等待逆向佬解密aeapi]
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/home\/framework\/tab url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/rcmd\/resource\/show url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ios\/upgrade\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/default\/keyword\/list url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/rcmd\/keyword\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/list url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/detail url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/suggest\/keyword\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/specialkeyword\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/current url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/position\/show\/resource url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/scene\/show\/resource url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vip\/cashier\/tspopup\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vipnewcenter\/app\/resource\/newaccountpage url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/side-bar\/mini-program\/music-service\/account url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/deliver url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/batch-deliver url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/yunbei\/account\/entrance\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/creator\/musician\/reminder\/message\/get url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/batch url script-request-header https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js
+a
