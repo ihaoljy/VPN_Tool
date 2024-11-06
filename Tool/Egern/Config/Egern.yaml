@@ -1,5 +1,3 @@
-http_port: 8899
-socks_port: 9988
 vif_only: true
 hide_vpn_icon: true
 hijack_dns:
@@ -50,8 +48,8 @@ policy_groups:
     type: select
     url: 此处填你的机场订阅
     urls:
-    - https://ghp.ci/https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/sub/v2rayn#out=Duocloud+07+08+06
-    - https://www.otcopusapp.cc/lx3af288h5i8pz380/api/v1/client/subscribe?token=4c400271f1b9f7d9ab1ae1063f43e22f
+    - 订阅1
+    - 订阅2
     filter: .*
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
     hidden: false
