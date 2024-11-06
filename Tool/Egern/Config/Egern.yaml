@@ -1,4 +1,7 @@
+http_port: 8899
+socks_port: 9988
 vif_only: true
+hide_vpn_icon: true
 hijack_dns:
 - '*:53'
 geoip_db_url: https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/Country.mmdb
@@ -14,14 +17,9 @@ dns:
   - 119.29.29.29
   - 223.6.6.6
   upstreams:
-    Secure DNS:
+    Doh:
     - https://8.138.89.130/dns-query
     - https://dns.alidns.com/dns-query
-    Open DNS:
-    - https://8.138.89.130/dns-query
-    - https://208.67.222.222/dns-query
-    Google DNS:
-    - tls:8.8.8.8
   forward:
   - wildcard:
       match: apple
@@ -38,21 +36,6 @@ dns:
   - wildcard:
       match: pqjc.buzz
       value: Google DNS
-  - proxy_rule_set:
-      match: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-      value: Secure DNS
-  - proxy_rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list
-      value: Secure DNS
-  - proxy_rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy.list
-      value: Google DNS
-  - proxy_rule_set:
-      match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_Domain.list
-      value: Google DNS
-  - wildcard:
-      match: '*'
-      value: Open DNS
   hosts:
     doh.pub: 1.12.12.12
     dns.alidns.com: 223.5.5.5
@@ -65,10 +48,12 @@ policy_groups:
 - external:
     name: 手动选择
     type: select
+    url: 此处填你的机场订阅
     urls:
-    - 这里改成你自己的1机场https:
-    - 这里改成你自己的2机场https:
-    - 这里改成你自己的3机场https:
+    - https://ghp.ci/https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/sub/v2rayn#out=Duocloud+07+08+06
+    - |
+      https://www.otcopusapp.cc/lx3af288h5i8pz380/api/v1/client/subscribe?token=4c400271f1b9f7d9ab1ae1063f43e22f
+    filter: .*
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
     hidden: false
 - select:
@@ -340,10 +325,26 @@ rules:
     policy: DIRECT
 - default:
     policy: 兜底分流
+- ip_cidr:
+    match: 192.168.0.0/16
+    policy: DIRECT
+- ip_cidr:
+    match: 10.0.0.0/8
+    policy: DIRECT
+- ip_cidr:
+    match: 127.0.0.0/8
+    policy: DIRECT
+- ip_cidr:
+    match: 172.16.0.0/12
+    policy: DIRECT
+- ip_cidr:
+    match: 192.128.0.0/16
+    policy: DIRECT
+- ip_cidr:
+    match: 224.0.0.0/24
+    policy: DIRECT
 mitm:
   enabled: true
-  ca_p12: egern.p12
-  ca_passphrase: egern
 modules:
 - name: ''
   url: https://raw.githubusercontent.com/QingRex/LoonKissSurge/refs/heads/main/Surge/Official/%F0%9F%8D%9F%20DNS%20%E5%88%86%E6%B5%81.official.sgmodule
