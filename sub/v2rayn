@@ -22,13 +22,13 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFx1N0Y4
 
 # 甲骨文-凤凰城amd2
 hysteria2://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8882/?alpn=h3&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E
-tuic://65891fa7-7f92-4201-838d-b6cdd4340eb4:65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8883?alpn=h3&congestion_control=bbr#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E
+#tuic://65891fa7-7f92-4201-838d-b6cdd4340eb4:65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8883?alpn=h3&congestion_control=bbr#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E
 ss://YWVzLTEyOC1nY206NjU4OTFmYTctN2Y5Mi00MjAxLTgzOGQtYjZjZGQ0MzQwZWI0@129.153.196.161:8885#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E
 trojan://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8886?security=tls&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFx1N0Y4RVx1NTZGRFx1NTFFNFx1NTFGMFx1NTdDRSIsDQogICJhZGQiOiAidmlzYS5jb20iLA0KICAicG9ydCI6ICI4ODgwIiwNCiAgImlkIjogIjY1ODkxZmE3LTdmOTItNDIwMS04MzhkLWI2Y2RkNDM0MGViNCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAibm9uZSIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJhdXRvIiwNCiAgImhvc3QiOiAiYW1kLXZtLmlib3gudXMua2ciLA0KICAicGF0aCI6ICIvNjU4OTFmYTctN2Y5Mi00MjAxLTgzOGQtYjZjZGQ0MzQwZWI0LXZtZXNzIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8881?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E-tcp
-vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8889?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=http&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E-h2
-vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=grpc&authority=&serviceName=grpc&mode=gun#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E-grpc
+#vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8881?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E-tcp
+#vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8889?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=http&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E-h2
+#vless://65891fa7-7f92-4201-838d-b6cdd4340eb4@129.153.196.161:8890?encryption=none&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=UnMa2iB5D5SdGUuydrP8LN-aL0dKJBjhWNFNkYawFwg&allowInsecure=1&type=grpc&authority=&serviceName=grpc&mode=gun#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E5%87%A4%E5%87%B0%E5%9F%8E-grpc
 
 # 马铃薯 https://mlshu.com/
 #hysteria2://b6b279d7-57d4-43da-80ce-b033faffd1dd@node13.mlshu.top:30001/?insecure=1#%F0%9F%87%AF%F0%9F%87%B5%E6%97%A5%E6%9C%AC%E5%85%AC%E5%BC%80
