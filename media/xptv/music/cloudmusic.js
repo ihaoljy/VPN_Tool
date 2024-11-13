@@ -10,7 +10,6 @@ const appConfig = {
   "ver": 1,
   "name": "猫耳FM",
   "message": "",
-  "warning": "⚠️ 测试用 随时改结构 请勿使用",
   "desc": "",
   "tabLibrary": {
     "name": "探索",
