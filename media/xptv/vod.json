@@ -81,6 +81,12 @@
             "api": "csp_harunasan",
             "ext": "https://ghp.ci/https://gist.githubusercontent.com/Yswag/d9f072b75dab5b1b107c523dd148eea3/raw/harunasan.js"
         },
+        { 
+            "name": "👥|Youtube|媒体", 
+            "type": 3, 
+            "api": "csp_youtube",
+            "ext": "https://gist.githubusercontent.com/Yswag/98b86b68755f698e2f601962f76c036a/raw/you.js"
+        },
         {
             "name": "🎬4k-av",
             "type": 3,
@@ -164,6 +170,74 @@
             "type": 3,
             "api": "csp_hdmoli",
             "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/hdmoli.js"
+        },
+        {
+          "name": "小纸条 | PAN",
+          "type": 3,
+          "api": "csp_Gitcafe"
+        },
+        {
+          "name": "玩偶哥哥 | PAN",
+          "type": 3,
+          "api": "csp_WoGG"
+        },
+        {
+          "name": "阿里小站 | PAN",
+          "type": 3,
+          "api": "csp_pan666"
+        },
+        {
+          "name": "云盘资源 | PAN",
+          "type": 3,
+          "api": "csp_yunpan"
+        },
+        {
+          "name": "南風短劇 | PAN",
+          "type": 3,
+          "api": "csp_nanfdj",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/nanfdj.js"
+        },
+        {
+          "name": "多多影音 | PAN",
+          "type": 3,
+          "api": "csp_yydsys",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/yydsys.js"
+        },
+        {
+          "name": "蜡笔盘 | PAN",
+          "type": 3,
+          "api": "csp_labi",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/labipan.js"
+        },
+        {
+          "name": "木偶 | PAN",
+          "type": 3,
+          "api": "csp_muou",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/muou.js"
+        },
+        {
+          "name": "小米 | PAN",
+          "type": 3,
+          "api": "csp_mihdr",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/mihdr.js"
+        },
+        {
+          "name": "云盘资源网 | PAN",
+          "type": 3,
+          "api": "csp_yunpanres",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/yunpanres.js"
+        },
+        {
+          "name": "校长影视 | PAN",
+          "type": 3,
+          "api": "csp_xzys",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/xzys.js"
+        },
+        {
+          "name": "正奕 | PAN",
+          "type": 3,
+          "api": "csp_wobgg",
+          "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/wobg.js"
         },
         {
             "key": "csp_age",
