@@ -1,7 +1,7 @@
 {
     "sites": [
-        {"key": "test", "name": "🎵|猫耳FM|音乐", "ext": "https://infuseku.xyz/vod/cloudmusic.js"}
-        {"key": "bili", "name": "🎵|Bili|音乐", "ext": "https://infuseku.xyz/vod/bili.js"}
+        {"key": "test", "name": "🎵|猫耳FM|音乐", "ext": "https://infuseku.xyz/vod/cloudmusic.js"},
+        {"key": "bili", "name": "🎵|Bili|音乐", "ext": "https://infuseku.xyz/vod/bili.js"},
         {"key": "yuetingba", "name": "🎧|悦听吧|听书", "ext": "https://gist.githubusercontent.com/Yswag/9a3395185a20b8a74f42922f5d3be2cf/raw/yuetingba.js"}
     ]
 }
