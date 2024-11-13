@@ -11,7 +11,6 @@ const appConfig = {
   "ver": 1,
   "name": "bilibili音乐",
   "message": "",
-  "warning": "⚠️ 测试用 随时改结构 请勿使用",
   "desc": "",
   "tabLibrary": {
     "name": "探索",
