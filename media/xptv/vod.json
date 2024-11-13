@@ -70,6 +70,18 @@
             "ext": "https://www.zxzja.com/"
         },
         {
+            "name": "🎧|虎斗哔抖|直播",
+            "type": 3,
+            "api": "csp_nmlive",
+            "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/nmlive.js"
+        },
+        {
+            "name": "⛰️|秋名山見|直播",
+            "type": 3,
+            "api": "csp_harunasan",
+            "ext": "https://ghp.ci/https://gist.githubusercontent.com/Yswag/d9f072b75dab5b1b107c523dd148eea3/raw/harunasan.js"
+        },
+        {
             "name": "🎬4k-av",
             "type": 3,
             "api": "csp_4kav",
@@ -154,12 +166,6 @@
             "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/hdmoli.js"
         },
         {
-            "name": "🎧nmlive",
-            "type": 3,
-            "api": "csp_nmlive",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/nmlive.js"
-        }
-        {
             "key": "csp_age",
             "name": "🟢AGE动漫",
             "type": 3,
@@ -204,12 +210,6 @@
             "type": 3,
             "api": "csp_Hanime1",
             "ext": "https://ghp.ci/https://raw.githubusercontent.com/Yswag/xptv-extensions/main/js/hanime.js"
-        },
-        {
-            "name": "⛰️秋名山見(live)",
-            "type": 3,
-            "api": "csp_harunasan",
-            "ext": "https://ghp.ci/https://gist.githubusercontent.com/Yswag/d9f072b75dab5b1b107c523dd148eea3/raw/harunasan.js"
         },
         {
             "name": "⊃SupJav",
