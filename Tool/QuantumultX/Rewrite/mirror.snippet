@@ -1,8 +1,8 @@
 #!name=GitHub 加速
-#!desc=自动使用 ghproxy.cn 加速(支持 raw, gist, archive, release 等各种链接)
+#!desc=自动使用 https://ghgo.xyz/ 加速(支持 raw, gist, archive, release 等各种链接)
 
 [URL Rewrite]
-^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive))\/.+?)$ https://ghproxy.cn/$1 302
+^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive))\/.+?)$ https://ghgo.xyz/$1 302
 
 [MITM]
 hostname = %APPEND% raw.githubusercontent.com, gist.githubusercontent.com, github.com
