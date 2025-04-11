@@ -1,0 +1,49 @@
+/*
+[rewrite_local]
+https:\/\/appraven\.net\/appraven\/graphql url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/AppRaven.js
+
+[mitm]
+hostname = appraven.net
+*/
+
+
+
+// 获取响应体内容
+var body = $response.body;
+
+try {
+  // 将响应体解析成 JSON 对象，方便进行结构化处理
+  let obj = JSON.parse(body);
+
+  // 定义需要修改的字段及目标值（全部设置为 true）
+  const forceFields = {
+    premium: true,               // 设置为 true，模拟用户为高级会员
+    hasInAppPurchases: true,     // 设置为 true，表示该 App 支持内购
+    youOwn: true,                // 设置为 true，表示用户拥有该 App
+    arcade: true,                // 设置为 true，表示该 App 是 Apple Arcade 内容
+    preorder: true               // 设置为 true，表示用户已经预购该内容
+  };
+
+  // 遍历定义的字段列表，检查是否存在这些字段并进行修改
+  for (let key in forceFields) {
+    // 检查对象是否包含该字段（避免访问不存在的字段）
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      obj[key] = forceFields[key];  // 强制将该字段的值设置为目标值（true）
+    }
+  }
+
+  // 将修改后的 JSON 对象转换回字符串，准备返回
+  body = JSON.stringify(obj);
+
+  // 返回修改后的响应体
+  $done({ body });
+
+} catch (e) {
+  // 如果解析 JSON 失败（例如返回的不是 JSON 格式），输出错误日志
+  console.log("JSON 解析失败，返回原始响应体: " + e);
+
+  // 如果解析失败，直接返回原始响应体，避免脚本中断
+  $done({ body });
+}
+ 
+;^http://example.com/resource1/4/ url reject-dict
