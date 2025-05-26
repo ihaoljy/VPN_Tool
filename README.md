@@ -74,6 +74,8 @@ Clash for Windows\resources\app.asar
 
 10.ClashMetaForAndroid永久更新地址：https://github.com/ihaoljy/ClashMetaForAndroid
 
+**11.最新-FlyClash - 简洁优雅的现代化代理工具永久更新地址：https://github.com/GtxFury/FlyClash-Android**
+
 ------
 
 ## 三、nekoray 或者 sing-box配置格式
