@@ -67,4 +67,5 @@ vless://8f517290-94b4-4813-bf89-8d973ec9a9a4@us.alumos.xyz:48711?encryption=none
 vless://f75c4f6c-61b5-450a-fa72-4e5686f87f45@104.16.18.94:443?encryption=none&security=tls&sni=meiguojiedian.464687.xyz&allowInsecure=1&type=ws&host=meiguojiedian.464687.xyz&path=%2F56956#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-%E5%AF%86%E8%8B%8F%E9%87%8C%E5%B7%9E
 
 # https://nodeloc.cc/t/topic/46329
-trojan://RlzoEILU@36.151.251.62:3330?security=tls&sni=cdn.egvra.cn&allowInsecure=1&type=tcp&headerType=none#%E7%B1%B3%E7%B2%92%E7%BE%8E%E5%9B%BD06-%E4%B8%AD%E8%BD%AC
+trojan://RlzoEILU@36.151.251.62:3330?security=tls&sni=cdn.egvra.cn&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%E7%B1%B3%E7%B2%92%E7%BE%8E%E5%9B%BD06-%E4%B8%AD%E8%BD%AC
+
