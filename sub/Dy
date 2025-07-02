@@ -5,9 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Gobo赞助, server: 113.57.36.177, port: 50001, type: trojan, password: ca34b57c-9bbe-358c-8258-481047b8d6c2, sni: mmbiz.qpic.cn, skip-cert-verify: false}
-  - {name: Gobo赞助, server: 113.57.36.177, port: 50002, type: trojan, password: ca34b57c-9bbe-358c-8258-481047b8d6c2, sni: mmbiz.qpic.cn, skip-cert-verify: false}
-  - {name: Gobo赞助, server: 113.57.36.177, port: 50002, type: trojan, password: ca34b57c-9bbe-358c-8258-481047b8d6c2, sni: mmbiz.qpic.cn, skip-cert-verify: false}
   - {name: Gobo赞助, server: 120.241.29.168, port: 51004, type: vmess, uuid: ca34b57c-9bbe-358c-8258-481047b8d6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: 10.5.95.5}}}
   - {name: Gobo赞助, server: 112.29.213.221, port: 51002, type: vmess, uuid: ca34b57c-9bbe-358c-8258-481047b8d6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: 10.5.95.5}}}
   - {name: Gobo赞助, server: 120.241.29.168, port: 51003, type: vmess, uuid: ca34b57c-9bbe-358c-8258-481047b8d6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ttf, headers: {Host: 10.5.95.5}}}
