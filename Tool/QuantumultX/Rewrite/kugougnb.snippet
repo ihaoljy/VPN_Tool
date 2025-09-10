@@ -4,8 +4,8 @@
 
 
 [Script]
-酷狗领取VIP = type=cron,cronexp=10 0 * * *,script-path=https://gist.githubusercontent.com/Alex0510/1c389019c264a7d3ddbe4dbcf77d4295/raw/kugou_auto.js
-酷狗数据 = type=http-request,pattern=https://(gateway|gatewayretry|gateway3).kugou.com/youth/v1/(recharge/receive_vip_listen_song|activity/get_month_vip_record).*,requires-body=0,script-path=https://gist.githubusercontent.com/Alex0510/1c389019c264a7d3ddbe4dbcf77d4295/raw/kugou.js
+酷狗领取VIP = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugouvip.js
+酷狗数据 = type=http-request,pattern=https://(gateway|gatewayretry|gateway3).kugou.com/youth/v1/(recharge/receive_vip_listen_song|activity/get_month_vip_record).*,requires-body=0,script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugou_auto.js
 
 [Rule]
 URL-REGEX,https://gateway.kugou.com/ads.gateway/.*,REJECT
