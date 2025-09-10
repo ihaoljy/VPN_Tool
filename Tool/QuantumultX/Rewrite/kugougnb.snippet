@@ -1,10 +1,10 @@
 #!name=酷狗概念版自动领取VIP
-#!desc=每日凌晨0点10分自动领取VIP，第一使用打开酷狗概念版天天签到领VIP页面获取参数，提示获取成功即可，去除启动广告
+#!desc=每日凌晨0点自动领取VIP，第一使用打开酷狗概念版天天签到领VIP页面获取参数，提示获取成功即可，去除启动广告
 #!category=酷狗概念版
 
 
 [Script]
-酷狗领取VIP = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugouvip.js
+酷狗领取VIP = type=cron,cronexp=0 0 * * *,script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugouvip.js
 酷狗数据 = type=http-request,pattern=https://(gateway|gatewayretry|gateway3).kugou.com/youth/v1/(recharge/receive_vip_listen_song|activity/get_month_vip_record).*,requires-body=0,script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/kugou_auto.js
 
 [Rule]
