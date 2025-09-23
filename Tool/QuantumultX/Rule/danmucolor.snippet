@@ -1,0 +1,39 @@
+# ========== 弹幕改色（Quantumult X 版本）==========
+# 名称: 弹幕改色（通用版）
+# 作者: Yu9191 (原脚本作者)
+# 说明: 拦截 danmu.dalxy.eu.org 的弹幕接口响应，把弹幕颜色替换为随机/固定/循环等。
+#       使用的脚本：set_dm_colors.js（由原作者提供），脚本负责具体的颜色替换逻辑。
+#
+# 关于正则里的 \d+:
+#  - 原规则使用 ^https:\/\/dm\.yiya\.love\/\d+\/api\/v2\/comment\/\d+(\?.*)?$
+#  - 其中的 \d+ 会匹配「一串数字」——例如你提供的 87654321。
+#  - 因此不需要把 87654321 写死在规则里，保持 \d+ 能匹配任意数字 ID。
+#
+# 参数设置方式（两种）：
+# 方式 A（推荐）—— 修改脚本内部默认值：
+#   1. 下载并编辑 set_dm_colors.js，将 mode/colors 写死在脚本顶部（例如 mode='cycle'，colors=[11193542,...]）。
+#   2. 将修改后的脚本放到你能访问的 raw 链接（如自己的 gist/raw 服务）。
+#   3. 在下面修改脚本 URL 为你的 raw 链接即可。
+#
+# 方式 B（若脚本支持 URL 参数）—— 在脚本 URL 后追加 ?mode=...&colors=...
+#   例: .../set_dm_colors.js?mode=cycle&colors=11193542|11513775|14474460
+#   注意：脚本必须在运行时解析 location.search 才能生效；若不确定，请用方式 A。
+#
+# 示例——使用你提供的 raw.githubusercontent 链接：
+[rewrite_local]
+^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js
+
+[mitm]
+hostname = danmu.dalxy.eu.org
+
+# 可选（仅当脚本支持 URL 参数时使用）：
+# ^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js?mode=cycle&colors=11193542|11513775|14474460|12632297|13484213
+
+# 示例匹配（这些 URL 都会被上面的规则拦截）：
+# https://danmu.dalxy.eu.org/87654321/api/v2/comment/12345
+# https://danmu.dalxy.eu.org/1/api/v2/comment/999?token=abc
+
+# 注意：
+# - 如果你把脚本放在私人 raw 链接（如自己的 GitHub Gist），请确保 QX 能访问该 URL（有时 raw.githubusercontent.com 在某些网络下会被阻断）。
+# - 若想我直接把 mode=cycle 与你给的五个颜色写进脚本并把修改后的脚本内容贴给你，告诉我“把参数写进脚本”，我会直接把脚本文本发给你。
+# ========== 结束 ==========
