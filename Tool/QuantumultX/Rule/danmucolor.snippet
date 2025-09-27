@@ -21,7 +21,8 @@
 #
 # 示例——使用你提供的 raw.githubusercontent 链接：
 [rewrite_local]
-^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js
+#^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js
+^https:\/\/danmu\.dalxy\.eu\.org\/[A-Za-z0-9]+\/api\/v2\/comment\/\d+(\?.*)?$ url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js
 
 [mitm]
 hostname = danmu.dalxy.eu.org
