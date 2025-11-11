@@ -15,6 +15,7 @@ tuic://b77da820-654c-4bfa-b1fd-a6d6d10c9c12%3Ab77da820-654c-4bfa-b1fd-a6d6d10c9c
 
 
 #56LDC.NET-finland
+vmess=www.csgo.com:8880, method=aes-128-gcm, password=5688d003-2384-4be3-bed1-ea09743e5c9e, obfs=ws, obfs-host=fl.dalxy.eu.org, obfs-uri=/5688d003-2384-4be3-bed1-ea09743e5c9e-vm, fast-open=false, udp-relay=false, aead=true, tag=🇫🇮芬兰CDN
 vmess=2a01:4f9:6b:4a8f:26::a:8880, method=aes-128-gcm, password=5688d003-2384-4be3-bed1-ea09743e5c9e, obfs=ws, obfs-host=www.bing.com, obfs-uri=/5688d003-2384-4be3-bed1-ea09743e5c9e-vm, fast-open=false, udp-relay=false, aead=true, tag=🇫🇮芬兰-VM
 vmess://YXV0bzo1Njg4ZDAwMy0yMzg0LTRiZTMtYmVkMS1lYTA5NzQzZTVjOWVAWzJhMDE6NGY5OjZiOjRhOGY6MjY6OmFdOjg4ODA?path=5688d003-2384-4be3-bed1-ea09743e5c9e-vm&remarks=%F0%9F%87%AB%F0%9F%87%AE%E8%8A%AC%E5%85%B0-VM&obfsParam=www.bing.com&obfs=websocket&alterId=0
 vless://YXV0bzo1Njg4ZDAwMy0yMzg0LTRiZTMtYmVkMS1lYTA5NzQzZTVjOWVAWzJhMDE6NGY5OjZiOjRhOGY6MjY6OmFdOjU2NTA4?remarks=%F0%9F%87%AB%F0%9F%87%AE%E8%8A%AC%E5%85%B0-reality&tls=1&peer=apple.com&xtls=2&pbk=Du8Huh0INrwPfvKCI9Ig5Dd-TADZvqkMDpxzqNc63HM&sid=54b2b836
