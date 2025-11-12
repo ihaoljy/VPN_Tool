@@ -1,4 +1,4 @@
-#!url=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/danmu_color.module
+#!url=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Tool/Shadowrocket/modules/danmu_color.module
 #!name=弹幕改色（简化版）
 #!desc=拦截 danmu.dalxy.eu.org 弹幕接口响应并统一改色
 #!homepage=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main
