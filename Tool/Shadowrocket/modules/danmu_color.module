@@ -1,0 +1,12 @@
+#!url=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/danmu_color.module
+#!name=弹幕改色（简化版）
+#!desc=拦截 danmu.dalxy.eu.org 弹幕接口响应并统一改色
+#!homepage=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main
+#!author=Yu9191（改 by ChatGPT）
+#!icon=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/icon.png
+
+[Script]
+弹幕改色=type=http-response,pattern=^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$,requires-body=1,script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js
+
+[MITM]
+hostname = danmu.dalxy.eu.org
