@@ -7,7 +7,7 @@
 
 [Script]
 # 拦截弹幕接口响应，使用本脚本修改弹幕颜色
-http-response ^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors_cycle.js,requires-body=true,timeout=10,enable=true
+http-response ^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ script-path=https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js,requires-body=true,timeout=10,enable=true
 
 [MITM]
 hostname = danmu.dalxy.eu.org
