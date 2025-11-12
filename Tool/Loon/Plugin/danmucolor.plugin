@@ -1,0 +1,31 @@
+#!name = 弹幕改色（带参数）
+#!desc = 拦截 danmu.dalxy.eu.org 弹幕接口并替换弹幕颜色（支持通过 Argument 配置 mode 与 colors）
+#!author = Yu9191 (adapted)
+#!homePage = https://github.com/ihaoljy/VPN_Tool
+#!data = 2025-11-13
+#!icon = https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/icon.png
+#!system = ios,tvos,macos
+#!system_version = 15.0
+#!loon_version = 3.2.1(734)
+#!tag = 弹幕,脚本,Demo
+
+[Argument]
+mode = select,"cycle","random","fixed",tag=颜色替换模式,desc=选择颜色替换策略：cycle=循环, random=随机, fixed=全部固定成第一个颜色
+colors = input,"11193542|11513775|14474460|12632297|13484213",tag=颜色列表,desc=用 | 分隔的十进制颜色值，例如 11193542|11513775|14474460
+scriptUrl = input,"https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/Resource/Script/set_dm_colors.js",tag=脚本 Raw 链接,desc=远程脚本的 raw 链接 (Loon 需能访问)
+enableScript = switch,true,tag=是否启用脚本,desc=开关：关闭则不拦截
+
+[Script]
+# 拦截弹幕接口响应，用远程脚本处理响应体，并把 {mode} 与 {colors} 作为 argument 传入脚本
+http-response ^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ script-path = {scriptUrl},argument=[{mode},{colors}],enable = {enableScript}
+
+# 如果脚本在运行时解析 location.search，也可考虑把参数追加到 URL（以下为示例，仅当你的脚本会读取 location.search 时有效）
+# http-response ^https:\/\/danmu\.dalxy\.eu\.org\/\d+\/api\/v2\/comment\/\d+(\?.*)?$ script-path = {scriptUrl}?mode={mode}&colors={colors},enable = {enableScript}
+
+[MITM]
+hostname = danmu.dalxy.eu.org
+
+# 可选说明：
+# 1) colors 请使用十进制色值（示例用了你之前给的 5 个十进制数），Loon 内部传参用 | 分隔（示例）。
+# 2) 若 set_dm_colors.js 并未实现读取 Loon 的 argument 参数，我可以把 mode 与 colors 直接写入脚本并把修改后的脚本贴给你（直接复制粘贴使用），你可以回复“把参数写进脚本”即可。
+# 3) 若你的网络无法访问 raw.githubusercontent.com，请把脚本放到可访问的 raw 链接，或告诉我要我把脚本内容直接贴在这里。
