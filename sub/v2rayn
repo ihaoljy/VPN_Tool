@@ -24,11 +24,11 @@ tuic://5688d003-2384-4be3-bed1-ea09743e5c9e:5688d003-2384-4be3-bed1-ea09743e5c9e
 
 
 # 56LDC.NET-DALLAS
-vmess://YXV0bzo3MDIyZDA0Yy1lMmVlLTQxMWEtODFlNC1iMmQ0OTM1ZGFlMDJAMTkyLjMuMTA1LjQ6NDA5MDE?path=7022d04c-e2ee-411a-81e4-b2d4935dae02-vm&remarks=%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E8%BE%BE%E6%8B%89%E6%96%AF-ws&obfsParam=www.bing.com&obfs=websocket&alterId=0
-vless://YXV0bzo3MDIyZDA0Yy1lMmVlLTQxMWEtODFlNC1iMmQ0OTM1ZGFlMDJAMTkyLjMuMTA1LjQ6NDA5MDA?remarks=%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E8%BE%BE%E6%8B%89%E6%96%AF-reality&tls=1&peer=apple.com&xtls=2&pbk=qEbGJG_PxaJtQJkwLanmF6NACFPvkFGSOyo2HLfIR2M&sid=92c4b8cf
-hysteria2://7022d04c-e2ee-411a-81e4-b2d4935dae02@192.3.105.4:40902?peer=www.bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E8%BE%BE%E6%8B%89%E6%96%AF-hy2
-tuic://7022d04c-e2ee-411a-81e4-b2d4935dae02:7022d04c-e2ee-411a-81e4-b2d4935dae02@192.3.105.4:40903?sni=www.bing.com&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E8%BE%BE%E6%8B%89%E6%96%AF-tu5
-vmess=192.3.105.4:40901, method=aes-128-gcm, password=7022d04c-e2ee-411a-81e4-b2d4935dae02, obfs=ws, obfs-host=www.bing.com, obfs-uri=/7022d04c-e2ee-411a-81e4-b2d4935dae02-vm, fast-open=false, udp-relay=false, aead=true, tag=🇺🇸美国达拉斯
+
+vmess=www.visa.com.sg:8443, method=none, password=7022d04c-e2ee-411a-81e4-b2d4935dae02, obfs=wss, obfs-host=dallas.dalxy.eu.org, obfs-uri=/7022d04c-e2ee-411a-81e4-b2d4935dae02-vm, tls-verification=true, fast-open=false, udp-relay=false, tag=🇺🇸美国达拉斯-argoQX
+vmess://YXV0bzo3MDIyZDA0Yy1lMmVlLTQxMWEtODFlNC1iMmQ0OTM1ZGFlMDJAd3d3LnZpc2EuY29tLnNnOjg0NDM?path=7022d04c-e2ee-411a-81e4-b2d4935dae02-vm&remarks=%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E8%BE%BE%E6%8B%89%E6%96%AF-argo&obfsParam=dallas.dalxy.eu.org&obfs=websocket&tls=1&peer=dallas.dalxy.eu.org&alterId=0
+
+
 
 # 网友分享 美国加利福尼亚洲
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFx1N0Y4RVx1NTZGRFx1NTJBMFx1NTIyOVx1NURERSIsDQogICJhZGQiOiAiY3Nnby5jb20iLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiZjA4MzY5ZDEtNWVlNy00YjE2LWQ3ODYtMzBiY2UxMmZjMzNjIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJvdXMzLmRlYW41Mi50b3AiLA0KICAicGF0aCI6ICIvZjA4MzY5ZDEtNWVlNy00YjE2LWQ3ODYtMzBiY2UxMmZjMzNjIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIm91czMuZGVhbjUyLnRvcCIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
@@ -58,6 +58,6 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERGQVx1RDgzQ1x1RERGOFx1N0Y4
 #vless://f75c4f6c-61b5-450a-fa72-4e5686f87f45@104.16.18.94:443?encryption=none&security=tls&sni=meiguojiedian.464687.xyz&allowInsecure=1&type=ws&host=meiguojiedian.464687.xyz&path=%2F56956#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD-%E5%AF%86%E8%8B%8F%E9%87%8C%E5%B7%9E
 
 #分享
-hysteria2://sWidQKmQON@[2a01:e5c0:7597::b]:31815?insecure=1#%F0%9F%87%B8%F0%9F%87%AA%E7%91%9E%E5%85%B8%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9%20%7C%20https%3A%2F%2Flinux.do%2Ft%2Ftopic%2F520488%2F8
+#hysteria2://sWidQKmQON@[2a01:e5c0:7597::b]:31815?insecure=1#%F0%9F%87%B8%F0%9F%87%AA%E7%91%9E%E5%85%B8%E6%96%AF%E5%BE%B7%E5%93%A5%E5%B0%94%E6%91%A9%20%7C%20https%3A%2F%2Flinux.do%2Ft%2Ftopic%2F520488%2F8
 
 
