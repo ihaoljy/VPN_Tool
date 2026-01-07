@@ -33,8 +33,7 @@ tuic://a88a71fa-ed7c-48d3-89e0-74a00d605d88:a88a71fa-ed7c-48d3-89e0-74a00d605d88
 
 # 56LDC.NET-DALLAS
 
-vmess=www.visa.com.sg:8443, method=none, password=7022d04c-e2ee-411a-81e4-b2d4935dae02, obfs=wss, obfs-host=dallas.dalxy.eu.org, obfs-uri=/7022d04c-e2ee-411a-81e4-b2d4935dae02-vm, tls-verification=true, fast-open=false, udp-relay=false, tag=🇺🇸美国达拉斯CDN
-vmess://YXV0bzo3MDIyZDA0Yy1lMmVlLTQxMWEtODFlNC1iMmQ0OTM1ZGFlMDJAd3d3LnZpc2EuY29tLnNnOjg0NDM?path=7022d04c-e2ee-411a-81e4-b2d4935dae02-vm&remarks=%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E8%BE%BE%E6%8B%89%E6%96%AF-argo&obfsParam=dallas.dalxy.eu.org&obfs=websocket&tls=1&peer=dallas.dalxy.eu.org&alterId=0
+
 
 
 
