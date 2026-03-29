@@ -1,0 +1,13 @@
+#!name=GitHub 加速（稳版）
+#!desc=raw → jsDelivr，release/archive/gist → ghfast
+
+[URL Rewrite]
+
+# ===== raw 文件（jsDelivr）=====
+^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.*) https://cdn.jsdelivr.net/gh/$1/$2@$3/$4 302
+
+# ===== release / archive / gist（ghfast）=====
+^https?:\/\/(gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive)\/.+) https://ghfast.top/$1 302
+
+[MITM]
+hostname = %APPEND% raw.githubusercontent.com, gist.githubusercontent.com, github.com
