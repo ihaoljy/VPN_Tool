@@ -7,7 +7,7 @@
 
 #^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive))\/.+?)$ https://hk.gh-proxy.com/$1 302
 
-^https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|camo\.githubusercontent\.com|user-images\.githubusercontent\.com)\/.+ https://hk.gh-proxy.com/$0 302
+^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com)\/.+)$ https://hk.gh-proxy.com/$1 302
 
 [MITM]
-hostname = %APPEND% raw.githubusercontent.com, gist.githubusercontent.com, github.com
+hostname = %APPEND% raw.githubusercontent.com, gist.githubusercontent.com
