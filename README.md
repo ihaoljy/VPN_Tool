@@ -50,6 +50,9 @@ Clash for Windows\resources\app.asar
 ## 二、 Clash For Android 下载
 
 ### 手机端端下载地址：
+最新推荐颜值高：https://github.com/HatsuneMikuUwU/MikuBoxForAndroid
+             https://github.com/HatsuneMikuUwU/MikuRay
+
 1.Clash 安卓客户端：https://github.com/naicfeng/ClashRForAndroid/releases
 
 2.ClashForAndroid永久更新地址1：https://github.com/MetaCubeX/ClashMetaForAndroid/releases  
