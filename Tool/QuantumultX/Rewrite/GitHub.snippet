@@ -1,0 +1,28 @@
+/*
+[rewrite_local]
+^https?:\/\/api\.(github\.com\/graphql|individual\.githubcopilot\.com\/models) url script-response-body https://raw.githubusercontent.com/ihaoljy/VPN_Tool/main/GitHub.snippet
+[mitm]
+hostname = api.github.com, individual.githubcopilot.com
+*/
+
+// Quantumult‑X GitHub Copilot Response Rewrite
+let body = $response.body || "";
+body = body
+// viewer 相关字段伪造
+.replace(/"isProPlan"\s*:\s*(?:true|false|null)/g, '"isProPlan":true')
+.replace(/"isEmployee"\s*:\s*(?:true|false|null)/g, '"isEmployee":true')
+.replace(/"hasAppleIapSubscription"\s*:\s*(?:true|false|null)/g, '"hasAppleIapSubscription":true')
+.replace(/"isCopilotMobileChatEnabled"\s*:\s*(?:true|false|null)/g, '"isCopilotMobileChatEnabled":true')
+.replace(/"viewerIsCopilotCodingAgentEnabled"\s*:\s*(?:true|false|null)/g, '"viewerIsCopilotCodingAgentEnabled":true')
+.replace(/"quotaPercentageRemaining"\s*:\s*\d+(?:\.\d+)?/g, '"quotaPercentageRemaining":100')
+.replace(/"hasUsageRemaining"\s*:\s*(?:true|false)/g, '"hasUsageRemaining":true')
+.replace(/"premiumRemaining"\s*:\s*\d+/g, '"premiumRemaining":9999')
+.replace(/"freeRemaining"\s*:\s*\d+/g, '"freeRemaining":9999')
+.replace(/"isOveragePermitted"\s*:\s*(?:true|false)/g, '"isOveragePermitted":true')
+.replace(/"entitlement"\s*:\s*\d+/g, '"entitlement":99999')
+// /models 接口字段伪造
+.replace(/"state"\s*:\s*"disabled"/g, '"state":"enabled"')
+.replace(/"model_picker_enabled"\s*:\s*false/g, '"model_picker_enabled":true')
+.replace(/"preview"\s*:\s*true/g, '"preview":false')
+.replace(/"restricted_to"\s*:\s*\[[^\]]*\]/g, '"restricted_to":[]');
+$done({ body });
