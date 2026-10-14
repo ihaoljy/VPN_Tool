@@ -1,9 +1,0 @@
-# NAME: Ios
-# AUTHOR: Rulify
-# REPO: https://github.com/ihaoljy/VPN_tool
-# UPDATED: 2026-10-14 14:42:50
-# HOST-SUFFIX: 3
-# TOTAL: 3
-HOST-SUFFIX,apple.com
-HOST-SUFFIX,cloudflare.com
-HOST-SUFFIX,xn--9kqs1lo79d.cc
